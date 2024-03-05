@@ -234,6 +234,18 @@ html,body {
   list-style: none;
 }
 
+  .page-section__paragraph__portfolio{
+    font-size: 15px;
+    color: rgba(34, 34, 59, 1);
+    max-width: 540px;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 60px;
+    list-style: none;
+  
+  }
+
 .page-section__paragraph--white{
   color: #fff;
   line-height: 1.8;
