@@ -26,11 +26,11 @@
         </div>
         <div class="collapse navbar-collapse" id="myNavbar">
           <ul class="nav navbar-nav">
-            <li><a href="#">HOME</a></li>
-            <li><a href="#">ABOUT</a></li>
-            <li><a href="#">SKILL</a></li> 
-            <li><a href="#">PORTFOLIO</a></li> 
-            <li><a href="#">CONTACT</a></li> 
+            <li><a href="#" onclick="location.reload()">HOME</a></li>
+            <li><a href="#about">ABOUT</a></li>
+            <li><a href="#skills">SKILL</a></li> 
+            <li><a href="#portfolio">PORTFOLIO</a></li> 
+            <li><a href="#footer">CONTACT</a></li> 
           </ul>
         </div>
       </nav>
@@ -48,13 +48,13 @@
     </div>
   </header>
 
-  <section class="about">
+  <section class="about" id = "about">
     <div class="container about__container--narrow">
       <div class="page-section">
         <h2 class="page-section__title">ABOUT ME</h2>
           <img class="page-section__title-style" src="assets/images/title-style-white.png" alt="">
           <p class="page-section__paragraph">I'm a 33-year-old father and husband living happily in Texas. I'm a Game Design & Programming teacher, and I absolutely love my job. Every day, I get to go to work and see students become so excited about the projects that they're creating. </p> 
-           <p class ="page-section__paragraph"><img src="assets/images/SeattleSelfie.jpg" alt="" style="max-width: 50%; height: auto;"></p>
+           <p class ="page-section__paragraph"><img src="assets/images/SeattleSelfie.jpg" alt="" style="max-width: 30%; height: auto;"></p>
          
           <p class="page-section__paragraph">I've included a few quick facts about myself below, but I feel it's most important to express how much I enjoy LEARNING above almost anything. I take immense satisfaction from picking up new skills and collaborating with experienced peers.  
               I'm always looking for new opportunities to learn and grow. If you're interested in collaborating on a project, or just want to chat, feel free to reach out to me!</p>
@@ -84,7 +84,7 @@
     </div>
   </section>
 
-  <section class="skill skill--bg">
+  <section class="skill skill--bg" id = "skills">
     <div class="container skill__container--narrow">
       <div class="page-section">
         <h2 class="page-section__title page-section__title--white">Skills</h2>
@@ -118,20 +118,23 @@
     </div>
   </section>
 
- <section class="portfolio">
+ <section class="portfolio" id = "portfolio">
     <div class="container">
       <div class="page-section">
         <h2 class="page-section__title">MY PORTFOLIO</h2>
         <img class="page-section__title-style" src="assets/images/title-style.png" alt="">
         <p class="page-section__paragraph__portfolio">This is an evolving portfolio I'm creating and hosting through github. I'll have frequent changes and updated projects as I continue developing it. </p>
         <div class="portfolio__button-group">
-          <a class="button button--default" data-filter="all" href="#">ALL</a>
-          <a class="button button--default" data-filter=".category-a" href="/assets/code-samples/C#">C# DEVELOPMENT</a>
+          <a class="button button--default" data-filter="all" href="https://github.com/DrStrangeGl0ve">ALL</a>
+          <a class="button button--default" data-filter="all" href="https://drstrangegl0ve.github.io/games.github.io-jetpack-geometry/">JETPACK GEOMETRY</a>
+          
+          <a class="button button--default" data-filter="all" href="https://drstrangegl0ve.github.io/games.github.io-MobaMovement/">MOBA MOVEMENT</a>
+          <a class="button button--default" data-filter=".category-a" href="https://github.com/DrStrangeGl0ve/portfolio.github.io/tree/9ee746f16565485d1bda38392b7da64ee2a622b0/assets/code-samples/C%23">C# DEVELOPMENT</a>
           <a class="button button--default" data-filter=".category-b" href="https://drstrangegl0ve.github.io/lgroce.github.io">DESIGN</a>
-          <!--ADD OLD PORTFOLIO AND VALENTINES DAY PAGE HERE-->
           <a class="button button--default" data-filter=".category-c" href="https://drstrangegl0ve.github.io/valentines.github.io/">HTML</a>
-          <a class="button button--default" data-filter=".category-d" href="assets/code-samples/Java">JAVA</a>
-          <!--PROVIDE LINKS TO ASSIGNMENTS AND JAVA PROJECTS HERE-->
+          <a class="button button--default" data-filter=".category-d" href="https://github.com/DrStrangeGl0ve/portfolio.github.io/tree/9ee746f16565485d1bda38392b7da64ee2a622b0/assets/code-samples/Java">JAVA</a>
+          <a class="button button--default" data-filter=".category-d" href=" https://github.com/DrStrangeGl0ve/lgroce.github.io/tree/3f9284cb1d39620806792f2b7887ba3e853875d4/C%20Programs%20for%20Git">C</a>
+         
         </div>
         <div class="row gutters-40">
           <div class="col-md-4">
@@ -214,7 +217,7 @@
  
         
 
-  <footer class="footer footer--bg">
+  <footer class="footer footer--bg" id = "footer">
     <div class="container text-center">
       <h1 class="footer__title">Contact Me</h1>
       <ul class="footer__contact-information">
