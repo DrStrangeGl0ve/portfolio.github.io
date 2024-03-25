@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        title {
+            color: #fff;
+            align-items: center;
+        }
+        h1 {
+            color: #fff;
+            align-content: center;
+            text-align: center;
+        }
+        h2 {
+            color: #fff;
+            align-content: center;
+            text-align: center;
+            text-decoration: underline;
+        }
+        body {
+            background-color: #1f455b;
+            color: #fff;
+        }
+
+        section {
+            border: 5px solid coral;
+            align-content: center;
+            text-align: center;
+            padding: 0;
+            margin-bottom: 0;
+        }
+        nav {
+            text-decoration-color: aliceblue;
+            align-content: center;
+            align-items: center;
+            text-align: center;
+            
+            
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            color: aliceblue;
+      
+        } 
+        li {
+            display: inline;
+            margin: 0 10px;
+            color: aliceblue;
+        }
+        a {
+            text-decoration: none;
+            color: coral;
+        }
+        .responsive-iframe-container {
+            position: relative;
+            overflow: hidden;
+            padding-top: 56.25%; /* for 16:9 aspect ratio */
+            /* padding-top: 75%; for 4:3 aspect ratio */
+        }
+
+        .responsive-iframe-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: 0;
+        }
+
+        .project {
+            margin-top: 20px;
+            margin-bottom: 20px; /* Adjust the gap between the href and iframe */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Logan Groce</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+<ul>
+    <section id="about">
+        <h2>About Me</h2>
+        <p>High School Game Design & Programming Teacher</p>
+        <br>
+    </section>
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li><a href="https://github.com/DrStrangeGl0ve/lgroce.github.io/tree/3f9284cb1d39620806792f2b7887ba3e853875d4/MobaMovementScripts"> C# & Unity</a></li>
+            <li><a href="https://github.com/DrStrangeGl0ve/lgroce.github.io/tree/3f9284cb1d39620806792f2b7887ba3e853875d4/C%20Programs%20for%20Git"> C Programming</a></li>
+            <li><a href="https://github.com/DrStrangeGl0ve/lgroce.github.io/blob/3f9284cb1d39620806792f2b7887ba3e853875d4/index.html">HTML & CSS</a></li>
+            <li><a href="https://github.com/DrStrangeGl0ve/lgroce.github.io/tree/3f9284cb1d39620806792f2b7887ba3e853875d4/Java%20Scripts">Java Programming</a></li>
+           
+        
+        
+        </ul>
+    </section>
+
+
+    <section id="projects">
+        <h1>Projects</h1>
+        <div class="project">
+            <h2>Jetpack Geometry</h2>
+            <p>A quick prototype of different type of movement system. The player can burst with the jetpack, but cannot steer. The world rotates around the character's model.</p>
+            <p>Designed in Unity with C#, custom assets (except the jetpack) and built for WebGL.</p>
+            <a href="https://drstrangegl0ve.github.io/games.github.io-jetpack-geometry/">Link to Jetpack Geometry</a>
+            <!--<div class = "responsive-iframe-container">
+                <iframe id = "webgl-iframe" src="https://drstrangegl0ve.github.io/games.github.io-jetpack-geometry/"></iframe>
+            </div>
+        -->
+           <h2>MOBA practice</h2>
+            <p>Trying to create LoL-style movement, pathing, and enemy AI.</p>
+            <p>Designed in Unity with C#, custom assets, and built for WebGL.</p>
+            <a href="https://drstrangegl0ve.github.io/games.github.io-MobaMovement/">Link to Moba Movement</a>
+            <!--
+            <div class = "responsive-iframe-container">
+                <iframe id = "webgl-iframe" src="https://drstrangegl0ve.github.io/games.github.io-MobaMovement/"></iframe>
+            </div>
+            -->
+            
+        </div>
+        <br>
+    </section>
+    <section id="contact">
+        <h1>Contact</h1>
+        <p>Email: logangroce91@gmail.com</p>
+         <a href ="https://www.linkedin.com/in/logan-groce-821302187/"> LinkedIn</a>
+</ul>
+ 
