@@ -260,12 +260,7 @@ html,body {
   display: block;
 }
 
-/*@media screen and (max-width: 991px){
-  .about__image{
-  
-   text-align: center;
- }
-}*/
+
 
 .about__bio{
   font-size: 15px;
@@ -325,7 +320,7 @@ html,body {
 .button--default:hover{
   background-color: #4a4e69ff;
   color: #fff;
-  /*border: 1px solid #7F56FD;*/
+  
 }
 
 .button--margin{
