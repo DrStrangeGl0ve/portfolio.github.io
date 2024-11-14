@@ -1,0 +1,4106 @@
+[
+    {
+        "game_time": "463s",
+        "killer_name": "Darius",
+        "victim_name": "gatatic",
+        "killer_position": {
+            "x": 3421,
+            "y": 7858
+        },
+        "victim_position": {
+            "x": 3421,
+            "y": 7858
+        },
+        "assisting_participant_ids": [],
+        "player_name": "gatatic"
+    },
+    {
+        "game_time": "629s",
+        "killer_name": "gatatic",
+        "victim_name": "Darius",
+        "killer_position": {
+            "x": 2557,
+            "y": 12194
+        },
+        "victim_position": {
+            "x": 2557,
+            "y": 12194
+        },
+        "assisting_participant_ids": [
+            1
+        ],
+        "player_name": "gatatic"
+    },
+    {
+        "game_time": "899s",
+        "killer_name": "Caitlyn",
+        "victim_name": "gatatic",
+        "killer_position": {
+            "x": 7777,
+            "y": 7176
+        },
+        "victim_position": {
+            "x": 7777,
+            "y": 7176
+        },
+        "assisting_participant_ids": [
+            6
+        ],
+        "player_name": "gatatic"
+    },
+    {
+        "game_time": "1059s",
+        "killer_name": "gatatic",
+        "victim_name": "Lux",
+        "killer_position": {
+            "x": 8014,
+            "y": 7869
+        },
+        "victim_position": {
+            "x": 8014,
+            "y": 7869
+        },
+        "assisting_participant_ids": [
+            3,
+            4
+        ],
+        "player_name": "gatatic"
+    },
+    {
+        "game_time": "1161s",
+        "killer_name": "gatatic",
+        "victim_name": "Lux",
+        "killer_position": {
+            "x": 7150,
+            "y": 4581
+        },
+        "victim_position": {
+            "x": 7150,
+            "y": 4581
+        },
+        "assisting_participant_ids": [
+            1,
+            3
+        ],
+        "player_name": "gatatic"
+    },
+    {
+        "game_time": "1278s",
+        "killer_name": "Garen",
+        "victim_name": "gatatic",
+        "killer_position": {
+            "x": 6544,
+            "y": 8048
+        },
+        "victim_position": {
+            "x": 6544,
+            "y": 8048
+        },
+        "assisting_participant_ids": [
+            7,
+            8,
+            9,
+            10
+        ],
+        "player_name": "gatatic"
+    },
+    {
+        "game_time": "1437s",
+        "killer_name": "gatatic",
+        "victim_name": "Lux",
+        "killer_position": {
+            "x": 8771,
+            "y": 8159
+        },
+        "victim_position": {
+            "x": 8771,
+            "y": 8159
+        },
+        "assisting_participant_ids": [],
+        "player_name": "gatatic"
+    },
+    {
+        "game_time": "1450s",
+        "killer_name": "Darius",
+        "victim_name": "gatatic",
+        "killer_position": {
+            "x": 9722,
+            "y": 8716
+        },
+        "victim_position": {
+            "x": 9722,
+            "y": 8716
+        },
+        "assisting_participant_ids": [
+            8,
+            9
+        ],
+        "player_name": "gatatic"
+    },
+    {
+        "game_time": "1633s",
+        "killer_name": "Viego",
+        "victim_name": "gatatic",
+        "killer_position": {
+            "x": 3978,
+            "y": 3175
+        },
+        "victim_position": {
+            "x": 3978,
+            "y": 3175
+        },
+        "assisting_participant_ids": [
+            8
+        ],
+        "player_name": "gatatic"
+    },
+    {
+        "game_time": "1751s",
+        "killer_name": "Viego",
+        "victim_name": "gatatic",
+        "killer_position": {
+            "x": 10109,
+            "y": 4806
+        },
+        "victim_position": {
+            "x": 10109,
+            "y": 4806
+        },
+        "assisting_participant_ids": [
+            6,
+            9,
+            10
+        ],
+        "player_name": "gatatic"
+    },
+    {
+        "game_time": "1808s",
+        "killer_name": "gatatic",
+        "victim_name": "Viego",
+        "killer_position": {
+            "x": 1035,
+            "y": 2428
+        },
+        "victim_position": {
+            "x": 1035,
+            "y": 2428
+        },
+        "assisting_participant_ids": [
+            5
+        ],
+        "player_name": "gatatic"
+    },
+    {
+        "game_time": "390s",
+        "killer_name": "Volibear",
+        "victim_name": "gatatic",
+        "killer_position": {
+            "x": 944,
+            "y": 9488
+        },
+        "victim_position": {
+            "x": 944,
+            "y": 9488
+        },
+        "assisting_participant_ids": [],
+        "player_name": "gatatic"
+    },
+    {
+        "game_time": "693s",
+        "killer_name": "Ekko",
+        "victim_name": "gatatic",
+        "killer_position": {
+            "x": 1810,
+            "y": 12318
+        },
+        "victim_position": {
+            "x": 1810,
+            "y": 12318
+        },
+        "assisting_participant_ids": [],
+        "player_name": "gatatic"
+    },
+    {
+        "game_time": "772s",
+        "killer_name": "Fizz",
+        "victim_name": "gatatic",
+        "killer_position": {
+            "x": 1508,
+            "y": 10891
+        },
+        "victim_position": {
+            "x": 1508,
+            "y": 10891
+        },
+        "assisting_participant_ids": [],
+        "player_name": "gatatic"
+    },
+    {
+        "game_time": "854s",
+        "killer_name": "Fizz",
+        "victim_name": "gatatic",
+        "killer_position": {
+            "x": 5518,
+            "y": 5099
+        },
+        "victim_position": {
+            "x": 5518,
+            "y": 5099
+        },
+        "assisting_participant_ids": [],
+        "player_name": "gatatic"
+    },
+    {
+        "game_time": "1430s",
+        "killer_name": "gatatic",
+        "victim_name": "Fizz",
+        "killer_position": {
+            "x": 4539,
+            "y": 2732
+        },
+        "victim_position": {
+            "x": 4539,
+            "y": 2732
+        },
+        "assisting_participant_ids": [
+            3,
+            4,
+            5
+        ],
+        "player_name": "gatatic"
+    },
+    {
+        "game_time": "1536s",
+        "killer_name": "Fizz",
+        "victim_name": "gatatic",
+        "killer_position": {
+            "x": 4570,
+            "y": 10794
+        },
+        "victim_position": {
+            "x": 4570,
+            "y": 10794
+        },
+        "assisting_participant_ids": [
+            6,
+            9,
+            10
+        ],
+        "player_name": "gatatic"
+    },
+    {
+        "game_time": "624s",
+        "killer_name": "gatatic",
+        "victim_name": "Tristana",
+        "killer_position": {
+            "x": 13733,
+            "y": 4466
+        },
+        "victim_position": {
+            "x": 13733,
+            "y": 4466
+        },
+        "assisting_participant_ids": [
+            9
+        ],
+        "player_name": "gatatic"
+    },
+    {
+        "game_time": "865s",
+        "killer_name": "gatatic",
+        "victim_name": "Neeko",
+        "killer_position": {
+            "x": 13883,
+            "y": 3771
+        },
+        "victim_position": {
+            "x": 13883,
+            "y": 3771
+        },
+        "assisting_participant_ids": [],
+        "player_name": "gatatic"
+    },
+    {
+        "game_time": "881s",
+        "killer_name": "gatatic",
+        "victim_name": "Tristana",
+        "killer_position": {
+            "x": 10834,
+            "y": 1114
+        },
+        "victim_position": {
+            "x": 10834,
+            "y": 1114
+        },
+        "assisting_participant_ids": [],
+        "player_name": "gatatic"
+    },
+    {
+        "game_time": "943s",
+        "killer_name": "gatatic",
+        "victim_name": "Tristana",
+        "killer_position": {
+            "x": 9934,
+            "y": 1330
+        },
+        "victim_position": {
+            "x": 9934,
+            "y": 1330
+        },
+        "assisting_participant_ids": [
+            7
+        ],
+        "player_name": "gatatic"
+    },
+    {
+        "game_time": "1043s",
+        "killer_name": "gatatic",
+        "victim_name": "Leblanc",
+        "killer_position": {
+            "x": 2896,
+            "y": 3698
+        },
+        "victim_position": {
+            "x": 2896,
+            "y": 3698
+        },
+        "assisting_participant_ids": [
+            7,
+            8
+        ],
+        "player_name": "gatatic"
+    },
+    {
+        "game_time": "1048s",
+        "killer_name": "gatatic",
+        "victim_name": "FiddleSticks",
+        "killer_position": {
+            "x": 2839,
+            "y": 2344
+        },
+        "victim_position": {
+            "x": 2839,
+            "y": 2344
+        },
+        "assisting_participant_ids": [
+            7,
+            8
+        ],
+        "player_name": "gatatic"
+    },
+    {
+        "game_time": "1084s",
+        "killer_name": "gatatic",
+        "victim_name": "FiddleSticks",
+        "killer_position": {
+            "x": 1799,
+            "y": 2731
+        },
+        "victim_position": {
+            "x": 1799,
+            "y": 2731
+        },
+        "assisting_participant_ids": [
+            6,
+            7,
+            8
+        ],
+        "player_name": "gatatic"
+    },
+    {
+        "game_time": "163s",
+        "killer_name": "gatatic",
+        "victim_name": "Leona",
+        "killer_position": {
+            "x": 12891,
+            "y": 1827
+        },
+        "victim_position": {
+            "x": 12891,
+            "y": 1827
+        },
+        "assisting_participant_ids": [
+            4
+        ],
+        "player_name": "gatatic"
+    },
+    {
+        "game_time": "845s",
+        "killer_name": "gatatic",
+        "victim_name": "Leona",
+        "killer_position": {
+            "x": 13250,
+            "y": 3918
+        },
+        "victim_position": {
+            "x": 13250,
+            "y": 3918
+        },
+        "assisting_participant_ids": [
+            3
+        ],
+        "player_name": "gatatic"
+    },
+    {
+        "game_time": "1028s",
+        "killer_name": "Leona",
+        "victim_name": "gatatic",
+        "killer_position": {
+            "x": 12839,
+            "y": 13160
+        },
+        "victim_position": {
+            "x": 12839,
+            "y": 13160
+        },
+        "assisting_participant_ids": [
+            7
+        ],
+        "player_name": "gatatic"
+    },
+    {
+        "game_time": "182s",
+        "killer_name": "gatatic",
+        "victim_name": "Garen",
+        "killer_position": {
+            "x": 3681,
+            "y": 13239
+        },
+        "victim_position": {
+            "x": 3681,
+            "y": 13239
+        },
+        "assisting_participant_ids": [],
+        "player_name": "gatatic"
+    },
+    {
+        "game_time": "295s",
+        "killer_name": "Garen",
+        "victim_name": "gatatic",
+        "killer_position": {
+            "x": 1205,
+            "y": 11060
+        },
+        "victim_position": {
+            "x": 1205,
+            "y": 11060
+        },
+        "assisting_participant_ids": [
+            7
+        ],
+        "player_name": "gatatic"
+    },
+    {
+        "game_time": "641s",
+        "killer_name": "Garen",
+        "victim_name": "gatatic",
+        "killer_position": {
+            "x": 3346,
+            "y": 13492
+        },
+        "victim_position": {
+            "x": 3346,
+            "y": 13492
+        },
+        "assisting_participant_ids": [],
+        "player_name": "gatatic"
+    },
+    {
+        "game_time": "779s",
+        "killer_name": "Garen",
+        "victim_name": "gatatic",
+        "killer_position": {
+            "x": 1567,
+            "y": 11103
+        },
+        "victim_position": {
+            "x": 1567,
+            "y": 11103
+        },
+        "assisting_participant_ids": [],
+        "player_name": "gatatic"
+    },
+    {
+        "game_time": "924s",
+        "killer_name": "Garen",
+        "victim_name": "gatatic",
+        "killer_position": {
+            "x": 781,
+            "y": 10596
+        },
+        "victim_position": {
+            "x": 781,
+            "y": 10596
+        },
+        "assisting_participant_ids": [
+            7
+        ],
+        "player_name": "gatatic"
+    },
+    {
+        "game_time": "983s",
+        "killer_name": "Galio",
+        "victim_name": "gatatic",
+        "killer_position": {
+            "x": 1457,
+            "y": 8879
+        },
+        "victim_position": {
+            "x": 1457,
+            "y": 8879
+        },
+        "assisting_participant_ids": [
+            6,
+            7
+        ],
+        "player_name": "gatatic"
+    },
+    {
+        "game_time": "1516s",
+        "killer_name": "Nidalee",
+        "victim_name": "gatatic",
+        "killer_position": {
+            "x": 5115,
+            "y": 5352
+        },
+        "victim_position": {
+            "x": 5115,
+            "y": 5352
+        },
+        "assisting_participant_ids": [
+            8,
+            9,
+            10
+        ],
+        "player_name": "gatatic"
+    },
+    {
+        "game_time": "1673s",
+        "killer_name": "gatatic",
+        "victim_name": "Garen",
+        "killer_position": {
+            "x": 1240,
+            "y": 4798
+        },
+        "victim_position": {
+            "x": 1240,
+            "y": 4798
+        },
+        "assisting_participant_ids": [
+            2,
+            3,
+            4,
+            5
+        ],
+        "player_name": "gatatic"
+    },
+    {
+        "game_time": "166s",
+        "killer_name": "Aurora",
+        "victim_name": "gatatic",
+        "killer_position": {
+            "x": 10507,
+            "y": 1459
+        },
+        "victim_position": {
+            "x": 10507,
+            "y": 1459
+        },
+        "assisting_participant_ids": [
+            9
+        ],
+        "player_name": "gatatic"
+    },
+    {
+        "game_time": "283s",
+        "killer_name": "Jhin",
+        "victim_name": "gatatic",
+        "killer_position": {
+            "x": 10542,
+            "y": 874
+        },
+        "victim_position": {
+            "x": 10542,
+            "y": 874
+        },
+        "assisting_participant_ids": [
+            10
+        ],
+        "player_name": "gatatic"
+    },
+    {
+        "game_time": "542s",
+        "killer_name": "Aurora",
+        "victim_name": "gatatic",
+        "killer_position": {
+            "x": 11592,
+            "y": 1000
+        },
+        "victim_position": {
+            "x": 11592,
+            "y": 1000
+        },
+        "assisting_participant_ids": [
+            9
+        ],
+        "player_name": "gatatic"
+    },
+    {
+        "game_time": "607s",
+        "killer_name": "gatatic",
+        "victim_name": "Aurora",
+        "killer_position": {
+            "x": 10138,
+            "y": 2586
+        },
+        "victim_position": {
+            "x": 10138,
+            "y": 2586
+        },
+        "assisting_participant_ids": [
+            2
+        ],
+        "player_name": "gatatic"
+    },
+    {
+        "game_time": "909s",
+        "killer_name": "Jhin",
+        "victim_name": "gatatic",
+        "killer_position": {
+            "x": 12844,
+            "y": 3005
+        },
+        "victim_position": {
+            "x": 12844,
+            "y": 3005
+        },
+        "assisting_participant_ids": [],
+        "player_name": "gatatic"
+    },
+    {
+        "game_time": "968s",
+        "killer_name": "gatatic",
+        "victim_name": "Malphite",
+        "killer_position": {
+            "x": 4602,
+            "y": 9464
+        },
+        "victim_position": {
+            "x": 4602,
+            "y": 9464
+        },
+        "assisting_participant_ids": [
+            2,
+            3
+        ],
+        "player_name": "gatatic"
+    },
+    {
+        "game_time": "1130s",
+        "killer_name": "gatatic",
+        "victim_name": "Kayn",
+        "killer_position": {
+            "x": 9014,
+            "y": 1292
+        },
+        "victim_position": {
+            "x": 9014,
+            "y": 1292
+        },
+        "assisting_participant_ids": [
+            2
+        ],
+        "player_name": "gatatic"
+    },
+    {
+        "game_time": "1162s",
+        "killer_name": "Jhin",
+        "victim_name": "gatatic",
+        "killer_position": {
+            "x": 9706,
+            "y": 5346
+        },
+        "victim_position": {
+            "x": 9706,
+            "y": 5346
+        },
+        "assisting_participant_ids": [
+            8
+        ],
+        "player_name": "gatatic"
+    },
+    {
+        "game_time": "1422s",
+        "killer_name": "Jhin",
+        "victim_name": "gatatic",
+        "killer_position": {
+            "x": 3044,
+            "y": 9757
+        },
+        "victim_position": {
+            "x": 3044,
+            "y": 9757
+        },
+        "assisting_participant_ids": [
+            7
+        ],
+        "player_name": "gatatic"
+    },
+    {
+        "game_time": "1524s",
+        "killer_name": "Hwei",
+        "victim_name": "gatatic",
+        "killer_position": {
+            "x": 10021,
+            "y": 5476
+        },
+        "victim_position": {
+            "x": 10021,
+            "y": 5476
+        },
+        "assisting_participant_ids": [
+            10
+        ],
+        "player_name": "gatatic"
+    },
+    {
+        "game_time": "1712s",
+        "killer_name": "Jhin",
+        "victim_name": "gatatic",
+        "killer_position": {
+            "x": 6282,
+            "y": 6748
+        },
+        "victim_position": {
+            "x": 6282,
+            "y": 6748
+        },
+        "assisting_participant_ids": [
+            6,
+            10
+        ],
+        "player_name": "gatatic"
+    },
+    {
+        "game_time": "1828s",
+        "killer_name": "Aurora",
+        "victim_name": "gatatic",
+        "killer_position": {
+            "x": 8822,
+            "y": 3987
+        },
+        "victim_position": {
+            "x": 8822,
+            "y": 3987
+        },
+        "assisting_participant_ids": [
+            6,
+            7,
+            8
+        ],
+        "player_name": "gatatic"
+    },
+    {
+        "game_time": "1962s",
+        "killer_name": "Kayn",
+        "victim_name": "gatatic",
+        "killer_position": {
+            "x": 7871,
+            "y": 8117
+        },
+        "victim_position": {
+            "x": 7871,
+            "y": 8117
+        },
+        "assisting_participant_ids": [
+            9
+        ],
+        "player_name": "gatatic"
+    },
+    {
+        "game_time": "2077s",
+        "killer_name": "gatatic",
+        "victim_name": "Hwei",
+        "killer_position": {
+            "x": 7010,
+            "y": 8829
+        },
+        "victim_position": {
+            "x": 7010,
+            "y": 8829
+        },
+        "assisting_participant_ids": [
+            3
+        ],
+        "player_name": "gatatic"
+    },
+    {
+        "game_time": "2384s",
+        "killer_name": "gatatic",
+        "victim_name": "Malphite",
+        "killer_position": {
+            "x": 1582,
+            "y": 3910
+        },
+        "victim_position": {
+            "x": 1582,
+            "y": 3910
+        },
+        "assisting_participant_ids": [
+            2,
+            3
+        ],
+        "player_name": "gatatic"
+    },
+    {
+        "game_time": "2392s",
+        "killer_name": "gatatic",
+        "victim_name": "Kayn",
+        "killer_position": {
+            "x": 4533,
+            "y": 3031
+        },
+        "victim_position": {
+            "x": 4533,
+            "y": 3031
+        },
+        "assisting_participant_ids": [
+            2
+        ],
+        "player_name": "gatatic"
+    },
+    {
+        "game_time": "2516s",
+        "killer_name": "gatatic",
+        "victim_name": "Kayn",
+        "killer_position": {
+            "x": 7040,
+            "y": 3844
+        },
+        "victim_position": {
+            "x": 7040,
+            "y": 3844
+        },
+        "assisting_participant_ids": [
+            2,
+            3
+        ],
+        "player_name": "gatatic"
+    },
+    {
+        "game_time": "532s",
+        "killer_name": "Caitlyn",
+        "victim_name": "gatatic",
+        "killer_position": {
+            "x": 12975,
+            "y": 2386
+        },
+        "victim_position": {
+            "x": 12975,
+            "y": 2386
+        },
+        "assisting_participant_ids": [
+            10
+        ],
+        "player_name": "gatatic"
+    },
+    {
+        "game_time": "611s",
+        "killer_name": "gatatic",
+        "victim_name": "Lux",
+        "killer_position": {
+            "x": 13435,
+            "y": 4154
+        },
+        "victim_position": {
+            "x": 13435,
+            "y": 4154
+        },
+        "assisting_participant_ids": [
+            3
+        ],
+        "player_name": "gatatic"
+    },
+    {
+        "game_time": "888s",
+        "killer_name": "Caitlyn",
+        "victim_name": "gatatic",
+        "killer_position": {
+            "x": 12357,
+            "y": 2763
+        },
+        "victim_position": {
+            "x": 12357,
+            "y": 2763
+        },
+        "assisting_participant_ids": [
+            10
+        ],
+        "player_name": "gatatic"
+    },
+    {
+        "game_time": "1013s",
+        "killer_name": "Aurora",
+        "victim_name": "gatatic",
+        "killer_position": {
+            "x": 9477,
+            "y": 5531
+        },
+        "victim_position": {
+            "x": 9477,
+            "y": 5531
+        },
+        "assisting_participant_ids": [
+            7,
+            10
+        ],
+        "player_name": "gatatic"
+    },
+    {
+        "game_time": "1308s",
+        "killer_name": "Kindred",
+        "victim_name": "gatatic",
+        "killer_position": {
+            "x": 12932,
+            "y": 3040
+        },
+        "victim_position": {
+            "x": 12932,
+            "y": 3040
+        },
+        "assisting_participant_ids": [],
+        "player_name": "gatatic"
+    },
+    {
+        "game_time": "1425s",
+        "killer_name": "Caitlyn",
+        "victim_name": "gatatic",
+        "killer_position": {
+            "x": 11255,
+            "y": 3435
+        },
+        "victim_position": {
+            "x": 11255,
+            "y": 3435
+        },
+        "assisting_participant_ids": [
+            6,
+            8,
+            10
+        ],
+        "player_name": "gatatic"
+    },
+    {
+        "game_time": "1537s",
+        "killer_name": "Camille",
+        "victim_name": "gatatic",
+        "killer_position": {
+            "x": 6173,
+            "y": 8005
+        },
+        "victim_position": {
+            "x": 6173,
+            "y": 8005
+        },
+        "assisting_participant_ids": [
+            8
+        ],
+        "player_name": "gatatic"
+    },
+    {
+        "game_time": "1657s",
+        "killer_name": "gatatic",
+        "victim_name": "Lux",
+        "killer_position": {
+            "x": 8394,
+            "y": 8352
+        },
+        "victim_position": {
+            "x": 8394,
+            "y": 8352
+        },
+        "assisting_participant_ids": [
+            2
+        ],
+        "player_name": "gatatic"
+    },
+    {
+        "game_time": "1676s",
+        "killer_name": "Aurora",
+        "victim_name": "gatatic",
+        "killer_position": {
+            "x": 6563,
+            "y": 7040
+        },
+        "victim_position": {
+            "x": 6563,
+            "y": 7040
+        },
+        "assisting_participant_ids": [],
+        "player_name": "gatatic"
+    },
+    {
+        "game_time": "1962s",
+        "killer_name": "Kindred",
+        "victim_name": "gatatic",
+        "killer_position": {
+            "x": 3412,
+            "y": 3432
+        },
+        "victim_position": {
+            "x": 3412,
+            "y": 3432
+        },
+        "assisting_participant_ids": [
+            8,
+            10
+        ],
+        "player_name": "gatatic"
+    },
+    {
+        "game_time": "47s",
+        "killer_name": "Nocturne",
+        "victim_name": "gatatic",
+        "killer_position": {
+            "x": 10313,
+            "y": 2984
+        },
+        "victim_position": {
+            "x": 10313,
+            "y": 2984
+        },
+        "assisting_participant_ids": [
+            9,
+            10
+        ],
+        "player_name": "gatatic"
+    },
+    {
+        "game_time": "228s",
+        "killer_name": "Nocturne",
+        "victim_name": "gatatic",
+        "killer_position": {
+            "x": 3031,
+            "y": 9665
+        },
+        "victim_position": {
+            "x": 3031,
+            "y": 9665
+        },
+        "assisting_participant_ids": [],
+        "player_name": "gatatic"
+    },
+    {
+        "game_time": "270s",
+        "killer_name": "gatatic",
+        "victim_name": "Lux",
+        "killer_position": {
+            "x": 6913,
+            "y": 7556
+        },
+        "victim_position": {
+            "x": 6913,
+            "y": 7556
+        },
+        "assisting_participant_ids": [
+            3
+        ],
+        "player_name": "gatatic"
+    },
+    {
+        "game_time": "724s",
+        "killer_name": "Nocturne",
+        "victim_name": "gatatic",
+        "killer_position": {
+            "x": 4131,
+            "y": 9824
+        },
+        "victim_position": {
+            "x": 4131,
+            "y": 9824
+        },
+        "assisting_participant_ids": [
+            6,
+            8
+        ],
+        "player_name": "gatatic"
+    },
+    {
+        "game_time": "835s",
+        "killer_name": "Swain",
+        "victim_name": "gatatic",
+        "killer_position": {
+            "x": 6176,
+            "y": 9126
+        },
+        "victim_position": {
+            "x": 6176,
+            "y": 9126
+        },
+        "assisting_participant_ids": [
+            8
+        ],
+        "player_name": "gatatic"
+    },
+    {
+        "game_time": "986s",
+        "killer_name": "gatatic",
+        "victim_name": "Swain",
+        "killer_position": {
+            "x": 1242,
+            "y": 12276
+        },
+        "victim_position": {
+            "x": 1242,
+            "y": 12276
+        },
+        "assisting_participant_ids": [],
+        "player_name": "gatatic"
+    },
+    {
+        "game_time": "1070s",
+        "killer_name": "gatatic",
+        "victim_name": "TahmKench",
+        "killer_position": {
+            "x": 8331,
+            "y": 8531
+        },
+        "victim_position": {
+            "x": 8331,
+            "y": 8531
+        },
+        "assisting_participant_ids": [
+            1,
+            3
+        ],
+        "player_name": "gatatic"
+    },
+    {
+        "game_time": "1075s",
+        "killer_name": "gatatic",
+        "victim_name": "KogMaw",
+        "killer_position": {
+            "x": 9211,
+            "y": 8225
+        },
+        "victim_position": {
+            "x": 9211,
+            "y": 8225
+        },
+        "assisting_participant_ids": [
+            3
+        ],
+        "player_name": "gatatic"
+    },
+    {
+        "game_time": "1123s",
+        "killer_name": "gatatic",
+        "victim_name": "Swain",
+        "killer_position": {
+            "x": 905,
+            "y": 9466
+        },
+        "victim_position": {
+            "x": 905,
+            "y": 9466
+        },
+        "assisting_participant_ids": [
+            1
+        ],
+        "player_name": "gatatic"
+    },
+    {
+        "game_time": "1252s",
+        "killer_name": "Swain",
+        "victim_name": "gatatic",
+        "killer_position": {
+            "x": 2529,
+            "y": 6874
+        },
+        "victim_position": {
+            "x": 2529,
+            "y": 6874
+        },
+        "assisting_participant_ids": [],
+        "player_name": "gatatic"
+    },
+    {
+        "game_time": "1344s",
+        "killer_name": "gatatic",
+        "victim_name": "TahmKench",
+        "killer_position": {
+            "x": 10157,
+            "y": 6184
+        },
+        "victim_position": {
+            "x": 10157,
+            "y": 6184
+        },
+        "assisting_participant_ids": [
+            4
+        ],
+        "player_name": "gatatic"
+    },
+    {
+        "game_time": "1370s",
+        "killer_name": "Lux",
+        "victim_name": "gatatic",
+        "killer_position": {
+            "x": 12499,
+            "y": 7327
+        },
+        "victim_position": {
+            "x": 12499,
+            "y": 7327
+        },
+        "assisting_participant_ids": [
+            9
+        ],
+        "player_name": "gatatic"
+    },
+    {
+        "game_time": "1443s",
+        "killer_name": "gatatic",
+        "victim_name": "Lux",
+        "killer_position": {
+            "x": 10134,
+            "y": 6049
+        },
+        "victim_position": {
+            "x": 10134,
+            "y": 6049
+        },
+        "assisting_participant_ids": [],
+        "player_name": "gatatic"
+    },
+    {
+        "game_time": "1588s",
+        "killer_name": "gatatic",
+        "victim_name": "TahmKench",
+        "killer_position": {
+            "x": 7363,
+            "y": 4829
+        },
+        "victim_position": {
+            "x": 7363,
+            "y": 4829
+        },
+        "assisting_participant_ids": [
+            1,
+            5
+        ],
+        "player_name": "gatatic"
+    },
+    {
+        "game_time": "1592s",
+        "killer_name": "Nocturne",
+        "victim_name": "gatatic",
+        "killer_position": {
+            "x": 7621,
+            "y": 5028
+        },
+        "victim_position": {
+            "x": 7621,
+            "y": 5028
+        },
+        "assisting_participant_ids": [
+            6,
+            8,
+            9
+        ],
+        "player_name": "gatatic"
+    },
+    {
+        "game_time": "1678s",
+        "killer_name": "gatatic",
+        "victim_name": "KogMaw",
+        "killer_position": {
+            "x": 7394,
+            "y": 7894
+        },
+        "victim_position": {
+            "x": 7394,
+            "y": 7894
+        },
+        "assisting_participant_ids": [
+            3,
+            5
+        ],
+        "player_name": "gatatic"
+    },
+    {
+        "game_time": "1687s",
+        "killer_name": "gatatic",
+        "victim_name": "Nocturne",
+        "killer_position": {
+            "x": 6267,
+            "y": 10286
+        },
+        "victim_position": {
+            "x": 6267,
+            "y": 10286
+        },
+        "assisting_participant_ids": [
+            3,
+            5
+        ],
+        "player_name": "gatatic"
+    },
+    {
+        "game_time": "1874s",
+        "killer_name": "gatatic",
+        "victim_name": "Nocturne",
+        "killer_position": {
+            "x": 3956,
+            "y": 2770
+        },
+        "victim_position": {
+            "x": 3956,
+            "y": 2770
+        },
+        "assisting_participant_ids": [
+            1,
+            5
+        ],
+        "player_name": "gatatic"
+    },
+    {
+        "game_time": "2086s",
+        "killer_name": "gatatic",
+        "victim_name": "Nocturne",
+        "killer_position": {
+            "x": 1182,
+            "y": 6006
+        },
+        "victim_position": {
+            "x": 1182,
+            "y": 6006
+        },
+        "assisting_participant_ids": [],
+        "player_name": "gatatic"
+    },
+    {
+        "game_time": "2230s",
+        "killer_name": "KogMaw",
+        "victim_name": "gatatic",
+        "killer_position": {
+            "x": 3768,
+            "y": 810
+        },
+        "victim_position": {
+            "x": 3768,
+            "y": 810
+        },
+        "assisting_participant_ids": [
+            7,
+            8,
+            10
+        ],
+        "player_name": "gatatic"
+    },
+    {
+        "game_time": "414s",
+        "killer_name": "Ambessa",
+        "victim_name": "gatatic",
+        "killer_position": {
+            "x": 2926,
+            "y": 13188
+        },
+        "victim_position": {
+            "x": 2926,
+            "y": 13188
+        },
+        "assisting_participant_ids": [],
+        "player_name": "gatatic"
+    },
+    {
+        "game_time": "571s",
+        "killer_name": "gatatic",
+        "victim_name": "Ambessa",
+        "killer_position": {
+            "x": 1946,
+            "y": 11539
+        },
+        "victim_position": {
+            "x": 1946,
+            "y": 11539
+        },
+        "assisting_participant_ids": [],
+        "player_name": "gatatic"
+    },
+    {
+        "game_time": "755s",
+        "killer_name": "Ambessa",
+        "victim_name": "gatatic",
+        "killer_position": {
+            "x": 1694,
+            "y": 12163
+        },
+        "victim_position": {
+            "x": 1694,
+            "y": 12163
+        },
+        "assisting_participant_ids": [],
+        "player_name": "gatatic"
+    },
+    {
+        "game_time": "1253s",
+        "killer_name": "gatatic",
+        "victim_name": "Ambessa",
+        "killer_position": {
+            "x": 4490,
+            "y": 13916
+        },
+        "victim_position": {
+            "x": 4490,
+            "y": 13916
+        },
+        "assisting_participant_ids": [
+            7
+        ],
+        "player_name": "gatatic"
+    },
+    {
+        "game_time": "1406s",
+        "killer_name": "gatatic",
+        "victim_name": "Lillia",
+        "killer_position": {
+            "x": 3035,
+            "y": 12322
+        },
+        "victim_position": {
+            "x": 3035,
+            "y": 12322
+        },
+        "assisting_participant_ids": [
+            7,
+            10
+        ],
+        "player_name": "gatatic"
+    },
+    {
+        "game_time": "1410s",
+        "killer_name": "Ambessa",
+        "victim_name": "gatatic",
+        "killer_position": {
+            "x": 2880,
+            "y": 12799
+        },
+        "victim_position": {
+            "x": 2880,
+            "y": 12799
+        },
+        "assisting_participant_ids": [
+            2,
+            3,
+            5
+        ],
+        "player_name": "gatatic"
+    },
+    {
+        "game_time": "1538s",
+        "killer_name": "gatatic",
+        "victim_name": "Renata",
+        "killer_position": {
+            "x": 7350,
+            "y": 8660
+        },
+        "victim_position": {
+            "x": 7350,
+            "y": 8660
+        },
+        "assisting_participant_ids": [
+            10
+        ],
+        "player_name": "gatatic"
+    },
+    {
+        "game_time": "1548s",
+        "killer_name": "Ambessa",
+        "victim_name": "gatatic",
+        "killer_position": {
+            "x": 6914,
+            "y": 11529
+        },
+        "victim_position": {
+            "x": 6914,
+            "y": 11529
+        },
+        "assisting_participant_ids": [
+            2,
+            4,
+            5
+        ],
+        "player_name": "gatatic"
+    },
+    {
+        "game_time": "1683s",
+        "killer_name": "MissFortune",
+        "victim_name": "gatatic",
+        "killer_position": {
+            "x": 2418,
+            "y": 9924
+        },
+        "victim_position": {
+            "x": 2418,
+            "y": 9924
+        },
+        "assisting_participant_ids": [
+            1,
+            5
+        ],
+        "player_name": "gatatic"
+    },
+    {
+        "game_time": "1784s",
+        "killer_name": "Ambessa",
+        "victim_name": "gatatic",
+        "killer_position": {
+            "x": 7683,
+            "y": 5779
+        },
+        "victim_position": {
+            "x": 7683,
+            "y": 5779
+        },
+        "assisting_participant_ids": [
+            4,
+            5
+        ],
+        "player_name": "gatatic"
+    },
+    {
+        "game_time": "1863s",
+        "killer_name": "gatatic",
+        "victim_name": "Nocturne",
+        "killer_position": {
+            "x": 8971,
+            "y": 8990
+        },
+        "victim_position": {
+            "x": 8971,
+            "y": 8990
+        },
+        "assisting_participant_ids": [
+            8,
+            9
+        ],
+        "player_name": "gatatic"
+    },
+    {
+        "game_time": "2007s",
+        "killer_name": "gatatic",
+        "victim_name": "MissFortune",
+        "killer_position": {
+            "x": 4773,
+            "y": 8941
+        },
+        "victim_position": {
+            "x": 4773,
+            "y": 8941
+        },
+        "assisting_participant_ids": [
+            7
+        ],
+        "player_name": "gatatic"
+    },
+    {
+        "game_time": "2011s",
+        "killer_name": "Nocturne",
+        "victim_name": "gatatic",
+        "killer_position": {
+            "x": 4658,
+            "y": 8996
+        },
+        "victim_position": {
+            "x": 4658,
+            "y": 8996
+        },
+        "assisting_participant_ids": [
+            4,
+            5
+        ],
+        "player_name": "gatatic"
+    },
+    {
+        "game_time": "2170s",
+        "killer_name": "gatatic",
+        "victim_name": "Renata",
+        "killer_position": {
+            "x": 9128,
+            "y": 9545
+        },
+        "victim_position": {
+            "x": 9128,
+            "y": 9545
+        },
+        "assisting_participant_ids": [
+            7,
+            8
+        ],
+        "player_name": "gatatic"
+    },
+    {
+        "game_time": "2195s",
+        "killer_name": "Ambessa",
+        "victim_name": "gatatic",
+        "killer_position": {
+            "x": 8858,
+            "y": 9204
+        },
+        "victim_position": {
+            "x": 8858,
+            "y": 9204
+        },
+        "assisting_participant_ids": [
+            2
+        ],
+        "player_name": "gatatic"
+    },
+    {
+        "game_time": "2273s",
+        "killer_name": "MissFortune",
+        "victim_name": "gatatic",
+        "killer_position": {
+            "x": 6879,
+            "y": 4755
+        },
+        "victim_position": {
+            "x": 6879,
+            "y": 4755
+        },
+        "assisting_participant_ids": [
+            1,
+            5
+        ],
+        "player_name": "gatatic"
+    },
+    {
+        "game_time": "2505s",
+        "killer_name": "Nocturne",
+        "victim_name": "gatatic",
+        "killer_position": {
+            "x": 9420,
+            "y": 13201
+        },
+        "victim_position": {
+            "x": 9420,
+            "y": 13201
+        },
+        "assisting_participant_ids": [],
+        "player_name": "gatatic"
+    },
+    {
+        "game_time": "646s",
+        "killer_name": "gatatic",
+        "victim_name": "Yorick",
+        "killer_position": {
+            "x": 3241,
+            "y": 11788
+        },
+        "victim_position": {
+            "x": 3241,
+            "y": 11788
+        },
+        "assisting_participant_ids": [
+            10
+        ],
+        "player_name": "gatatic"
+    },
+    {
+        "game_time": "827s",
+        "killer_name": "gatatic",
+        "victim_name": "Yorick",
+        "killer_position": {
+            "x": 931,
+            "y": 10003
+        },
+        "victim_position": {
+            "x": 931,
+            "y": 10003
+        },
+        "assisting_participant_ids": [],
+        "player_name": "gatatic"
+    },
+    {
+        "game_time": "1202s",
+        "killer_name": "gatatic",
+        "victim_name": "LeeSin",
+        "killer_position": {
+            "x": 3153,
+            "y": 2641
+        },
+        "victim_position": {
+            "x": 3153,
+            "y": 2641
+        },
+        "assisting_participant_ids": [
+            7,
+            8
+        ],
+        "player_name": "gatatic"
+    },
+    {
+        "game_time": "1292s",
+        "killer_name": "gatatic",
+        "victim_name": "LeeSin",
+        "killer_position": {
+            "x": 4305,
+            "y": 4682
+        },
+        "victim_position": {
+            "x": 4305,
+            "y": 4682
+        },
+        "assisting_participant_ids": [
+            8
+        ],
+        "player_name": "gatatic"
+    },
+    {
+        "game_time": "1461s",
+        "killer_name": "gatatic",
+        "victim_name": "Yorick",
+        "killer_position": {
+            "x": 10325,
+            "y": 864
+        },
+        "victim_position": {
+            "x": 10325,
+            "y": 864
+        },
+        "assisting_participant_ids": [
+            7,
+            8
+        ],
+        "player_name": "gatatic"
+    },
+    {
+        "game_time": "368s",
+        "killer_name": "Chogath",
+        "victim_name": "gatatic",
+        "killer_position": {
+            "x": 3871,
+            "y": 13850
+        },
+        "victim_position": {
+            "x": 3871,
+            "y": 13850
+        },
+        "assisting_participant_ids": [],
+        "player_name": "gatatic"
+    },
+    {
+        "game_time": "635s",
+        "killer_name": "Chogath",
+        "victim_name": "gatatic",
+        "killer_position": {
+            "x": 5848,
+            "y": 10960
+        },
+        "victim_position": {
+            "x": 5848,
+            "y": 10960
+        },
+        "assisting_participant_ids": [
+            3
+        ],
+        "player_name": "gatatic"
+    },
+    {
+        "game_time": "671s",
+        "killer_name": "gatatic",
+        "victim_name": "Chogath",
+        "killer_position": {
+            "x": 4925,
+            "y": 8854
+        },
+        "victim_position": {
+            "x": 4925,
+            "y": 8854
+        },
+        "assisting_participant_ids": [
+            8
+        ],
+        "player_name": "gatatic"
+    },
+    {
+        "game_time": "852s",
+        "killer_name": "gatatic",
+        "victim_name": "Chogath",
+        "killer_position": {
+            "x": 3229,
+            "y": 13807
+        },
+        "victim_position": {
+            "x": 3229,
+            "y": 13807
+        },
+        "assisting_participant_ids": [
+            8
+        ],
+        "player_name": "gatatic"
+    },
+    {
+        "game_time": "911s",
+        "killer_name": "gatatic",
+        "victim_name": "Kassadin",
+        "killer_position": {
+            "x": 6254,
+            "y": 7380
+        },
+        "victim_position": {
+            "x": 6254,
+            "y": 7380
+        },
+        "assisting_participant_ids": [
+            8
+        ],
+        "player_name": "gatatic"
+    },
+    {
+        "game_time": "1039s",
+        "killer_name": "gatatic",
+        "victim_name": "Seraphine",
+        "killer_position": {
+            "x": 8652,
+            "y": 6279
+        },
+        "victim_position": {
+            "x": 8652,
+            "y": 6279
+        },
+        "assisting_participant_ids": [
+            7,
+            9,
+            10
+        ],
+        "player_name": "gatatic"
+    },
+    {
+        "game_time": "1107s",
+        "killer_name": "gatatic",
+        "victim_name": "Kayn",
+        "killer_position": {
+            "x": 4895,
+            "y": 13176
+        },
+        "victim_position": {
+            "x": 4895,
+            "y": 13176
+        },
+        "assisting_participant_ids": [
+            8
+        ],
+        "player_name": "gatatic"
+    },
+    {
+        "game_time": "1154s",
+        "killer_name": "Jinx",
+        "victim_name": "gatatic",
+        "killer_position": {
+            "x": 8664,
+            "y": 8586
+        },
+        "victim_position": {
+            "x": 8664,
+            "y": 8586
+        },
+        "assisting_participant_ids": [
+            1,
+            3,
+            5
+        ],
+        "player_name": "gatatic"
+    },
+    {
+        "game_time": "1332s",
+        "killer_name": "Kayn",
+        "victim_name": "gatatic",
+        "killer_position": {
+            "x": 6938,
+            "y": 7008
+        },
+        "victim_position": {
+            "x": 6938,
+            "y": 7008
+        },
+        "assisting_participant_ids": [
+            1,
+            3,
+            4
+        ],
+        "player_name": "gatatic"
+    },
+    {
+        "game_time": "1638s",
+        "killer_name": "Kassadin",
+        "victim_name": "gatatic",
+        "killer_position": {
+            "x": 12780,
+            "y": 12298
+        },
+        "victim_position": {
+            "x": 12780,
+            "y": 12298
+        },
+        "assisting_participant_ids": [
+            1,
+            2,
+            4,
+            5
+        ],
+        "player_name": "gatatic"
+    },
+    {
+        "game_time": "180s",
+        "killer_name": "gatatic",
+        "victim_name": "Fiora",
+        "killer_position": {
+            "x": 1874,
+            "y": 9810
+        },
+        "victim_position": {
+            "x": 1874,
+            "y": 9810
+        },
+        "assisting_participant_ids": [],
+        "player_name": "gatatic"
+    },
+    {
+        "game_time": "713s",
+        "killer_name": "Fiora",
+        "victim_name": "gatatic",
+        "killer_position": {
+            "x": 1105,
+            "y": 10518
+        },
+        "victim_position": {
+            "x": 1105,
+            "y": 10518
+        },
+        "assisting_participant_ids": [],
+        "player_name": "gatatic"
+    },
+    {
+        "game_time": "836s",
+        "killer_name": "Fiora",
+        "victim_name": "gatatic",
+        "killer_position": {
+            "x": 2380,
+            "y": 11916
+        },
+        "victim_position": {
+            "x": 2380,
+            "y": 11916
+        },
+        "assisting_participant_ids": [],
+        "player_name": "gatatic"
+    },
+    {
+        "game_time": "1045s",
+        "killer_name": "gatatic",
+        "victim_name": "Ivern",
+        "killer_position": {
+            "x": 3331,
+            "y": 12030
+        },
+        "victim_position": {
+            "x": 3331,
+            "y": 12030
+        },
+        "assisting_participant_ids": [
+            2,
+            5
+        ],
+        "player_name": "gatatic"
+    },
+    {
+        "game_time": "1112s",
+        "killer_name": "Velkoz",
+        "victim_name": "gatatic",
+        "killer_position": {
+            "x": 6253,
+            "y": 6952
+        },
+        "victim_position": {
+            "x": 6253,
+            "y": 6952
+        },
+        "assisting_participant_ids": [
+            6,
+            7
+        ],
+        "player_name": "gatatic"
+    },
+    {
+        "game_time": "1325s",
+        "killer_name": "Fiora",
+        "victim_name": "gatatic",
+        "killer_position": {
+            "x": 4719,
+            "y": 4195
+        },
+        "victim_position": {
+            "x": 4719,
+            "y": 4195
+        },
+        "assisting_participant_ids": [
+            7,
+            9,
+            10
+        ],
+        "player_name": "gatatic"
+    },
+    {
+        "game_time": "1441s",
+        "killer_name": "LeeSin",
+        "victim_name": "gatatic",
+        "killer_position": {
+            "x": 6811,
+            "y": 6489
+        },
+        "victim_position": {
+            "x": 6811,
+            "y": 6489
+        },
+        "assisting_participant_ids": [
+            6,
+            7,
+            9,
+            10
+        ],
+        "player_name": "gatatic"
+    },
+    {
+        "game_time": "45s",
+        "killer_name": "gatatic",
+        "victim_name": "Swain",
+        "killer_position": {
+            "x": 10238,
+            "y": 2899
+        },
+        "victim_position": {
+            "x": 10238,
+            "y": 2899
+        },
+        "assisting_participant_ids": [
+            9,
+            10
+        ],
+        "player_name": "gatatic"
+    },
+    {
+        "game_time": "587s",
+        "killer_name": "gatatic",
+        "victim_name": "Viego",
+        "killer_position": {
+            "x": 3247,
+            "y": 9072
+        },
+        "victim_position": {
+            "x": 3247,
+            "y": 9072
+        },
+        "assisting_participant_ids": [],
+        "player_name": "gatatic"
+    },
+    {
+        "game_time": "749s",
+        "killer_name": "gatatic",
+        "victim_name": "Kassadin",
+        "killer_position": {
+            "x": 7629,
+            "y": 8017
+        },
+        "victim_position": {
+            "x": 7629,
+            "y": 8017
+        },
+        "assisting_participant_ids": [
+            8,
+            10
+        ],
+        "player_name": "gatatic"
+    },
+    {
+        "game_time": "763s",
+        "killer_name": "Ezreal",
+        "victim_name": "gatatic",
+        "killer_position": {
+            "x": 6241,
+            "y": 6569
+        },
+        "victim_position": {
+            "x": 6241,
+            "y": 6569
+        },
+        "assisting_participant_ids": [
+            5
+        ],
+        "player_name": "gatatic"
+    },
+    {
+        "game_time": "857s",
+        "killer_name": "Kassadin",
+        "victim_name": "gatatic",
+        "killer_position": {
+            "x": 8419,
+            "y": 5217
+        },
+        "victim_position": {
+            "x": 8419,
+            "y": 5217
+        },
+        "assisting_participant_ids": [
+            3,
+            4
+        ],
+        "player_name": "gatatic"
+    },
+    {
+        "game_time": "947s",
+        "killer_name": "Swain",
+        "victim_name": "gatatic",
+        "killer_position": {
+            "x": 9207,
+            "y": 6037
+        },
+        "victim_position": {
+            "x": 9207,
+            "y": 6037
+        },
+        "assisting_participant_ids": [
+            2
+        ],
+        "player_name": "gatatic"
+    },
+    {
+        "game_time": "1041s",
+        "killer_name": "gatatic",
+        "victim_name": "Kassadin",
+        "killer_position": {
+            "x": 6044,
+            "y": 8589
+        },
+        "victim_position": {
+            "x": 6044,
+            "y": 8589
+        },
+        "assisting_participant_ids": [
+            8,
+            9
+        ],
+        "player_name": "gatatic"
+    },
+    {
+        "game_time": "1050s",
+        "killer_name": "TahmKench",
+        "victim_name": "gatatic",
+        "killer_position": {
+            "x": 6490,
+            "y": 7259
+        },
+        "victim_position": {
+            "x": 6490,
+            "y": 7259
+        },
+        "assisting_participant_ids": [
+            2,
+            4
+        ],
+        "player_name": "gatatic"
+    },
+    {
+        "game_time": "1182s",
+        "killer_name": "TahmKench",
+        "victim_name": "gatatic",
+        "killer_position": {
+            "x": 9754,
+            "y": 7434
+        },
+        "victim_position": {
+            "x": 9754,
+            "y": 7434
+        },
+        "assisting_participant_ids": [],
+        "player_name": "gatatic"
+    },
+    {
+        "game_time": "1307s",
+        "killer_name": "gatatic",
+        "victim_name": "Kassadin",
+        "killer_position": {
+            "x": 4466,
+            "y": 12089
+        },
+        "victim_position": {
+            "x": 4466,
+            "y": 12089
+        },
+        "assisting_participant_ids": [],
+        "player_name": "gatatic"
+    },
+    {
+        "game_time": "1367s",
+        "killer_name": "Kassadin",
+        "victim_name": "gatatic",
+        "killer_position": {
+            "x": 5225,
+            "y": 5617
+        },
+        "victim_position": {
+            "x": 5225,
+            "y": 5617
+        },
+        "assisting_participant_ids": [
+            3,
+            5
+        ],
+        "player_name": "gatatic"
+    },
+    {
+        "game_time": "1487s",
+        "killer_name": "Ezreal",
+        "victim_name": "gatatic",
+        "killer_position": {
+            "x": 4768,
+            "y": 10234
+        },
+        "victim_position": {
+            "x": 4768,
+            "y": 10234
+        },
+        "assisting_participant_ids": [
+            1,
+            2,
+            3
+        ],
+        "player_name": "gatatic"
+    },
+    {
+        "game_time": "1588s",
+        "killer_name": "TahmKench",
+        "victim_name": "gatatic",
+        "killer_position": {
+            "x": 10813,
+            "y": 5404
+        },
+        "victim_position": {
+            "x": 10813,
+            "y": 5404
+        },
+        "assisting_participant_ids": [
+            3
+        ],
+        "player_name": "gatatic"
+    },
+    {
+        "game_time": "1678s",
+        "killer_name": "TahmKench",
+        "victim_name": "gatatic",
+        "killer_position": {
+            "x": 4186,
+            "y": 10450
+        },
+        "victim_position": {
+            "x": 4186,
+            "y": 10450
+        },
+        "assisting_participant_ids": [
+            2,
+            3,
+            5
+        ],
+        "player_name": "gatatic"
+    },
+    {
+        "game_time": "1898s",
+        "killer_name": "gatatic",
+        "victim_name": "Kassadin",
+        "killer_position": {
+            "x": 7737,
+            "y": 11016
+        },
+        "victim_position": {
+            "x": 7737,
+            "y": 11016
+        },
+        "assisting_participant_ids": [],
+        "player_name": "gatatic"
+    },
+    {
+        "game_time": "1942s",
+        "killer_name": "gatatic",
+        "victim_name": "Ezreal",
+        "killer_position": {
+            "x": 8642,
+            "y": 4206
+        },
+        "victim_position": {
+            "x": 8642,
+            "y": 4206
+        },
+        "assisting_participant_ids": [
+            8,
+            9,
+            10
+        ],
+        "player_name": "gatatic"
+    },
+    {
+        "game_time": "1945s",
+        "killer_name": "gatatic",
+        "victim_name": "Viego",
+        "killer_position": {
+            "x": 8894,
+            "y": 3617
+        },
+        "victim_position": {
+            "x": 8894,
+            "y": 3617
+        },
+        "assisting_participant_ids": [
+            8,
+            9,
+            10
+        ],
+        "player_name": "gatatic"
+    },
+    {
+        "game_time": "1947s",
+        "killer_name": "gatatic",
+        "victim_name": "Swain",
+        "killer_position": {
+            "x": 9186,
+            "y": 3818
+        },
+        "victim_position": {
+            "x": 9186,
+            "y": 3818
+        },
+        "assisting_participant_ids": [
+            6,
+            8,
+            9,
+            10
+        ],
+        "player_name": "gatatic"
+    },
+    {
+        "game_time": "212s",
+        "killer_name": "XinZhao",
+        "victim_name": "gatatic",
+        "killer_position": {
+            "x": 2025,
+            "y": 12458
+        },
+        "victim_position": {
+            "x": 2025,
+            "y": 12458
+        },
+        "assisting_participant_ids": [
+            1
+        ],
+        "player_name": "gatatic"
+    },
+    {
+        "game_time": "367s",
+        "killer_name": "Ambessa",
+        "victim_name": "gatatic",
+        "killer_position": {
+            "x": 3489,
+            "y": 13517
+        },
+        "victim_position": {
+            "x": 3489,
+            "y": 13517
+        },
+        "assisting_participant_ids": [],
+        "player_name": "gatatic"
+    },
+    {
+        "game_time": "501s",
+        "killer_name": "Ambessa",
+        "victim_name": "gatatic",
+        "killer_position": {
+            "x": 3390,
+            "y": 13257
+        },
+        "victim_position": {
+            "x": 3390,
+            "y": 13257
+        },
+        "assisting_participant_ids": [],
+        "player_name": "gatatic"
+    },
+    {
+        "game_time": "979s",
+        "killer_name": "XinZhao",
+        "victim_name": "gatatic",
+        "killer_position": {
+            "x": 4381,
+            "y": 14060
+        },
+        "victim_position": {
+            "x": 4381,
+            "y": 14060
+        },
+        "assisting_participant_ids": [],
+        "player_name": "gatatic"
+    },
+    {
+        "game_time": "1240s",
+        "killer_name": "gatatic",
+        "victim_name": "Ambessa",
+        "killer_position": {
+            "x": 6844,
+            "y": 7518
+        },
+        "victim_position": {
+            "x": 6844,
+            "y": 7518
+        },
+        "assisting_participant_ids": [
+            8,
+            9,
+            10
+        ],
+        "player_name": "gatatic"
+    },
+    {
+        "game_time": "1244s",
+        "killer_name": "Morgana",
+        "victim_name": "gatatic",
+        "killer_position": {
+            "x": 6638,
+            "y": 7882
+        },
+        "victim_position": {
+            "x": 6638,
+            "y": 7882
+        },
+        "assisting_participant_ids": [
+            3
+        ],
+        "player_name": "gatatic"
+    },
+    {
+        "game_time": "1387s",
+        "killer_name": "Ambessa",
+        "victim_name": "gatatic",
+        "killer_position": {
+            "x": 7112,
+            "y": 13696
+        },
+        "victim_position": {
+            "x": 7112,
+            "y": 13696
+        },
+        "assisting_participant_ids": [],
+        "player_name": "gatatic"
+    },
+    {
+        "game_time": "1497s",
+        "killer_name": "Vex",
+        "victim_name": "gatatic",
+        "killer_position": {
+            "x": 6337,
+            "y": 9651
+        },
+        "victim_position": {
+            "x": 6337,
+            "y": 9651
+        },
+        "assisting_participant_ids": [
+            1,
+            2,
+            4
+        ],
+        "player_name": "gatatic"
+    },
+    {
+        "game_time": "1579s",
+        "killer_name": "Jhin",
+        "victim_name": "gatatic",
+        "killer_position": {
+            "x": 8489,
+            "y": 5511
+        },
+        "victim_position": {
+            "x": 8489,
+            "y": 5511
+        },
+        "assisting_participant_ids": [
+            5
+        ],
+        "player_name": "gatatic"
+    },
+    {
+        "game_time": "1744s",
+        "killer_name": "Morgana",
+        "victim_name": "gatatic",
+        "killer_position": {
+            "x": 10534,
+            "y": 10083
+        },
+        "victim_position": {
+            "x": 10534,
+            "y": 10083
+        },
+        "assisting_participant_ids": [
+            2,
+            3
+        ],
+        "player_name": "gatatic"
+    },
+    {
+        "game_time": "120s",
+        "killer_name": "Teemo",
+        "victim_name": "gatatic",
+        "killer_position": {
+            "x": 2567,
+            "y": 11817
+        },
+        "victim_position": {
+            "x": 2567,
+            "y": 11817
+        },
+        "assisting_participant_ids": [],
+        "player_name": "gatatic"
+    },
+    {
+        "game_time": "178s",
+        "killer_name": "Teemo",
+        "victim_name": "gatatic",
+        "killer_position": {
+            "x": 2607,
+            "y": 11845
+        },
+        "victim_position": {
+            "x": 2607,
+            "y": 11845
+        },
+        "assisting_participant_ids": [],
+        "player_name": "gatatic"
+    },
+    {
+        "game_time": "260s",
+        "killer_name": "Teemo",
+        "victim_name": "gatatic",
+        "killer_position": {
+            "x": 901,
+            "y": 10623
+        },
+        "victim_position": {
+            "x": 901,
+            "y": 10623
+        },
+        "assisting_participant_ids": [],
+        "player_name": "gatatic"
+    },
+    {
+        "game_time": "574s",
+        "killer_name": "Teemo",
+        "victim_name": "gatatic",
+        "killer_position": {
+            "x": 978,
+            "y": 10601
+        },
+        "victim_position": {
+            "x": 978,
+            "y": 10601
+        },
+        "assisting_participant_ids": [],
+        "player_name": "gatatic"
+    },
+    {
+        "game_time": "808s",
+        "killer_name": "gatatic",
+        "victim_name": "Teemo",
+        "killer_position": {
+            "x": 2520,
+            "y": 9055
+        },
+        "victim_position": {
+            "x": 2520,
+            "y": 9055
+        },
+        "assisting_participant_ids": [
+            2
+        ],
+        "player_name": "gatatic"
+    },
+    {
+        "game_time": "950s",
+        "killer_name": "Veigar",
+        "victim_name": "gatatic",
+        "killer_position": {
+            "x": 6750,
+            "y": 6971
+        },
+        "victim_position": {
+            "x": 6750,
+            "y": 6971
+        },
+        "assisting_participant_ids": [
+            7,
+            9,
+            10
+        ],
+        "player_name": "gatatic"
+    },
+    {
+        "game_time": "1084s",
+        "killer_name": "gatatic",
+        "victim_name": "Sona",
+        "killer_position": {
+            "x": 5177,
+            "y": 12802
+        },
+        "victim_position": {
+            "x": 5177,
+            "y": 12802
+        },
+        "assisting_participant_ids": [
+            2
+        ],
+        "player_name": "gatatic"
+    },
+    {
+        "game_time": "1088s",
+        "killer_name": "MissFortune",
+        "victim_name": "gatatic",
+        "killer_position": {
+            "x": 5271,
+            "y": 12610
+        },
+        "victim_position": {
+            "x": 5271,
+            "y": 12610
+        },
+        "assisting_participant_ids": [
+            10
+        ],
+        "player_name": "gatatic"
+    },
+    {
+        "game_time": "1155s",
+        "killer_name": "Teemo",
+        "victim_name": "gatatic",
+        "killer_position": {
+            "x": 2753,
+            "y": 8404
+        },
+        "victim_position": {
+            "x": 2753,
+            "y": 8404
+        },
+        "assisting_participant_ids": [],
+        "player_name": "gatatic"
+    },
+    {
+        "game_time": "1334s",
+        "killer_name": "MissFortune",
+        "victim_name": "gatatic",
+        "killer_position": {
+            "x": 7276,
+            "y": 7118
+        },
+        "victim_position": {
+            "x": 7276,
+            "y": 7118
+        },
+        "assisting_participant_ids": [],
+        "player_name": "gatatic"
+    },
+    {
+        "game_time": "1453s",
+        "killer_name": "gatatic",
+        "victim_name": "Sona",
+        "killer_position": {
+            "x": 8263,
+            "y": 8317
+        },
+        "victim_position": {
+            "x": 8263,
+            "y": 8317
+        },
+        "assisting_participant_ids": [
+            2,
+            3
+        ],
+        "player_name": "gatatic"
+    },
+    {
+        "game_time": "1702s",
+        "killer_name": "MissFortune",
+        "victim_name": "gatatic",
+        "killer_position": {
+            "x": 11847,
+            "y": 7132
+        },
+        "victim_position": {
+            "x": 11847,
+            "y": 7132
+        },
+        "assisting_participant_ids": [
+            8
+        ],
+        "player_name": "gatatic"
+    },
+    {
+        "game_time": "1783s",
+        "killer_name": "MissFortune",
+        "victim_name": "gatatic",
+        "killer_position": {
+            "x": 9436,
+            "y": 8965
+        },
+        "victim_position": {
+            "x": 9436,
+            "y": 8965
+        },
+        "assisting_participant_ids": [
+            8,
+            10
+        ],
+        "player_name": "gatatic"
+    },
+    {
+        "game_time": "2115s",
+        "killer_name": "Teemo",
+        "victim_name": "gatatic",
+        "killer_position": {
+            "x": 898,
+            "y": 3384
+        },
+        "victim_position": {
+            "x": 898,
+            "y": 3384
+        },
+        "assisting_participant_ids": [
+            7,
+            8,
+            10
+        ],
+        "player_name": "gatatic"
+    },
+    {
+        "game_time": "191s",
+        "killer_name": "Amumu",
+        "victim_name": "gatatic",
+        "killer_position": {
+            "x": 6063,
+            "y": 6225
+        },
+        "victim_position": {
+            "x": 6063,
+            "y": 6225
+        },
+        "assisting_participant_ids": [
+            8
+        ],
+        "player_name": "gatatic"
+    },
+    {
+        "game_time": "649s",
+        "killer_name": "gatatic",
+        "victim_name": "Amumu",
+        "killer_position": {
+            "x": 6744,
+            "y": 6373
+        },
+        "victim_position": {
+            "x": 6744,
+            "y": 6373
+        },
+        "assisting_participant_ids": [],
+        "player_name": "gatatic"
+    },
+    {
+        "game_time": "963s",
+        "killer_name": "gatatic",
+        "victim_name": "Yasuo",
+        "killer_position": {
+            "x": 9014,
+            "y": 8238
+        },
+        "victim_position": {
+            "x": 9014,
+            "y": 8238
+        },
+        "assisting_participant_ids": [],
+        "player_name": "gatatic"
+    },
+    {
+        "game_time": "1023s",
+        "killer_name": "Amumu",
+        "victim_name": "gatatic",
+        "killer_position": {
+            "x": 8516,
+            "y": 7442
+        },
+        "victim_position": {
+            "x": 8516,
+            "y": 7442
+        },
+        "assisting_participant_ids": [
+            8
+        ],
+        "player_name": "gatatic"
+    },
+    {
+        "game_time": "1089s",
+        "killer_name": "gatatic",
+        "victim_name": "Amumu",
+        "killer_position": {
+            "x": 7266,
+            "y": 4598
+        },
+        "victim_position": {
+            "x": 7266,
+            "y": 4598
+        },
+        "assisting_participant_ids": [
+            4,
+            5
+        ],
+        "player_name": "gatatic"
+    },
+    {
+        "game_time": "1143s",
+        "killer_name": "gatatic",
+        "victim_name": "Mordekaiser",
+        "killer_position": {
+            "x": 5195,
+            "y": 8470
+        },
+        "victim_position": {
+            "x": 5195,
+            "y": 8470
+        },
+        "assisting_participant_ids": [],
+        "player_name": "gatatic"
+    },
+    {
+        "game_time": "1260s",
+        "killer_name": "gatatic",
+        "victim_name": "KogMaw",
+        "killer_position": {
+            "x": 10134,
+            "y": 2404
+        },
+        "victim_position": {
+            "x": 10134,
+            "y": 2404
+        },
+        "assisting_participant_ids": [
+            5
+        ],
+        "player_name": "gatatic"
+    },
+    {
+        "game_time": "1325s",
+        "killer_name": "KogMaw",
+        "victim_name": "gatatic",
+        "killer_position": {
+            "x": 5251,
+            "y": 8613
+        },
+        "victim_position": {
+            "x": 5251,
+            "y": 8613
+        },
+        "assisting_participant_ids": [
+            8,
+            10
+        ],
+        "player_name": "gatatic"
+    },
+    {
+        "game_time": "1402s",
+        "killer_name": "KogMaw",
+        "victim_name": "gatatic",
+        "killer_position": {
+            "x": 5151,
+            "y": 5270
+        },
+        "victim_position": {
+            "x": 5151,
+            "y": 5270
+        },
+        "assisting_participant_ids": [
+            6
+        ],
+        "player_name": "gatatic"
+    },
+    {
+        "game_time": "1634s",
+        "killer_name": "gatatic",
+        "victim_name": "Yasuo",
+        "killer_position": {
+            "x": 6623,
+            "y": 6238
+        },
+        "victim_position": {
+            "x": 6623,
+            "y": 6238
+        },
+        "assisting_participant_ids": [
+            3,
+            4,
+            5
+        ],
+        "player_name": "gatatic"
+    },
+    {
+        "game_time": "1637s",
+        "killer_name": "gatatic",
+        "victim_name": "Hwei",
+        "killer_position": {
+            "x": 6068,
+            "y": 6704
+        },
+        "victim_position": {
+            "x": 6068,
+            "y": 6704
+        },
+        "assisting_participant_ids": [
+            2,
+            3,
+            5
+        ],
+        "player_name": "gatatic"
+    },
+    {
+        "game_time": "1846s",
+        "killer_name": "KogMaw",
+        "victim_name": "gatatic",
+        "killer_position": {
+            "x": 5200,
+            "y": 5640
+        },
+        "victim_position": {
+            "x": 5200,
+            "y": 5640
+        },
+        "assisting_participant_ids": [
+            7,
+            8,
+            10
+        ],
+        "player_name": "gatatic"
+    },
+    {
+        "game_time": "1997s",
+        "killer_name": "KogMaw",
+        "victim_name": "gatatic",
+        "killer_position": {
+            "x": 3979,
+            "y": 4800
+        },
+        "victim_position": {
+            "x": 3979,
+            "y": 4800
+        },
+        "assisting_participant_ids": [
+            7,
+            8,
+            10
+        ],
+        "player_name": "gatatic"
+    },
+    {
+        "game_time": "329s",
+        "killer_name": "Garen",
+        "victim_name": "gatatic",
+        "killer_position": {
+            "x": 1176,
+            "y": 10575
+        },
+        "victim_position": {
+            "x": 1176,
+            "y": 10575
+        },
+        "assisting_participant_ids": [],
+        "player_name": "gatatic"
+    },
+    {
+        "game_time": "438s",
+        "killer_name": "Garen",
+        "victim_name": "gatatic",
+        "killer_position": {
+            "x": 2178,
+            "y": 12492
+        },
+        "victim_position": {
+            "x": 2178,
+            "y": 12492
+        },
+        "assisting_participant_ids": [],
+        "player_name": "gatatic"
+    },
+    {
+        "game_time": "578s",
+        "killer_name": "gatatic",
+        "victim_name": "Garen",
+        "killer_position": {
+            "x": 3323,
+            "y": 8230
+        },
+        "victim_position": {
+            "x": 3323,
+            "y": 8230
+        },
+        "assisting_participant_ids": [],
+        "player_name": "gatatic"
+    },
+    {
+        "game_time": "817s",
+        "killer_name": "Garen",
+        "victim_name": "gatatic",
+        "killer_position": {
+            "x": 1618,
+            "y": 9925
+        },
+        "victim_position": {
+            "x": 1618,
+            "y": 9925
+        },
+        "assisting_participant_ids": [],
+        "player_name": "gatatic"
+    },
+    {
+        "game_time": "897s",
+        "killer_name": "gatatic",
+        "victim_name": "Garen",
+        "killer_position": {
+            "x": 4323,
+            "y": 14043
+        },
+        "victim_position": {
+            "x": 4323,
+            "y": 14043
+        },
+        "assisting_participant_ids": [
+            2
+        ],
+        "player_name": "gatatic"
+    },
+    {
+        "game_time": "1075s",
+        "killer_name": "Ezreal",
+        "victim_name": "gatatic",
+        "killer_position": {
+            "x": 6905,
+            "y": 6758
+        },
+        "victim_position": {
+            "x": 6905,
+            "y": 6758
+        },
+        "assisting_participant_ids": [
+            7,
+            8
+        ],
+        "player_name": "gatatic"
+    },
+    {
+        "game_time": "1241s",
+        "killer_name": "gatatic",
+        "victim_name": "Pyke",
+        "killer_position": {
+            "x": 8303,
+            "y": 7128
+        },
+        "victim_position": {
+            "x": 8303,
+            "y": 7128
+        },
+        "assisting_participant_ids": [
+            3,
+            4,
+            5
+        ],
+        "player_name": "gatatic"
+    },
+    {
+        "game_time": "1299s",
+        "killer_name": "gatatic",
+        "victim_name": "Talon",
+        "killer_position": {
+            "x": 2557,
+            "y": 9717
+        },
+        "victim_position": {
+            "x": 2557,
+            "y": 9717
+        },
+        "assisting_participant_ids": [],
+        "player_name": "gatatic"
+    },
+    {
+        "game_time": "1313s",
+        "killer_name": "gatatic",
+        "victim_name": "Malzahar",
+        "killer_position": {
+            "x": 5609,
+            "y": 8264
+        },
+        "victim_position": {
+            "x": 5609,
+            "y": 8264
+        },
+        "assisting_participant_ids": [
+            4,
+            5
+        ],
+        "player_name": "gatatic"
+    },
+    {
+        "game_time": "1360s",
+        "killer_name": "Garen",
+        "victim_name": "gatatic",
+        "killer_position": {
+            "x": 11707,
+            "y": 7428
+        },
+        "victim_position": {
+            "x": 11707,
+            "y": 7428
+        },
+        "assisting_participant_ids": [
+            9,
+            10
+        ],
+        "player_name": "gatatic"
+    },
+    {
+        "game_time": "1523s",
+        "killer_name": "gatatic",
+        "victim_name": "Talon",
+        "killer_position": {
+            "x": 6683,
+            "y": 7392
+        },
+        "victim_position": {
+            "x": 6683,
+            "y": 7392
+        },
+        "assisting_participant_ids": [
+            5
+        ],
+        "player_name": "gatatic"
+    },
+    {
+        "game_time": "1536s",
+        "killer_name": "Ezreal",
+        "victim_name": "gatatic",
+        "killer_position": {
+            "x": 8817,
+            "y": 8194
+        },
+        "victim_position": {
+            "x": 8817,
+            "y": 8194
+        },
+        "assisting_participant_ids": [
+            7
+        ],
+        "player_name": "gatatic"
+    },
+    {
+        "game_time": "1631s",
+        "killer_name": "gatatic",
+        "victim_name": "Garen",
+        "killer_position": {
+            "x": 1575,
+            "y": 10080
+        },
+        "victim_position": {
+            "x": 1575,
+            "y": 10080
+        },
+        "assisting_participant_ids": [],
+        "player_name": "gatatic"
+    },
+    {
+        "game_time": "1723s",
+        "killer_name": "gatatic",
+        "victim_name": "Talon",
+        "killer_position": {
+            "x": 9686,
+            "y": 1143
+        },
+        "victim_position": {
+            "x": 9686,
+            "y": 1143
+        },
+        "assisting_participant_ids": [
+            2,
+            3
+        ],
+        "player_name": "gatatic"
+    },
+    {
+        "game_time": "1732s",
+        "killer_name": "Malzahar",
+        "victim_name": "gatatic",
+        "killer_position": {
+            "x": 10690,
+            "y": 1374
+        },
+        "victim_position": {
+            "x": 10690,
+            "y": 1374
+        },
+        "assisting_participant_ids": [
+            6,
+            9
+        ],
+        "player_name": "gatatic"
+    },
+    {
+        "game_time": "1818s",
+        "killer_name": "gatatic",
+        "victim_name": "Malzahar",
+        "killer_position": {
+            "x": 2434,
+            "y": 11443
+        },
+        "victim_position": {
+            "x": 2434,
+            "y": 11443
+        },
+        "assisting_participant_ids": [
+            5
+        ],
+        "player_name": "gatatic"
+    },
+    {
+        "game_time": "1964s",
+        "killer_name": "gatatic",
+        "victim_name": "Garen",
+        "killer_position": {
+            "x": 1528,
+            "y": 11693
+        },
+        "victim_position": {
+            "x": 1528,
+            "y": 11693
+        },
+        "assisting_participant_ids": [
+            3
+        ],
+        "player_name": "gatatic"
+    },
+    {
+        "game_time": "2027s",
+        "killer_name": "gatatic",
+        "victim_name": "Talon",
+        "killer_position": {
+            "x": 5978,
+            "y": 5980
+        },
+        "victim_position": {
+            "x": 5978,
+            "y": 5980
+        },
+        "assisting_participant_ids": [
+            4,
+            5
+        ],
+        "player_name": "gatatic"
+    },
+    {
+        "game_time": "2151s",
+        "killer_name": "gatatic",
+        "victim_name": "Garen",
+        "killer_position": {
+            "x": 4830,
+            "y": 6923
+        },
+        "victim_position": {
+            "x": 4830,
+            "y": 6923
+        },
+        "assisting_participant_ids": [
+            3,
+            4,
+            5
+        ],
+        "player_name": "gatatic"
+    },
+    {
+        "game_time": "2267s",
+        "killer_name": "gatatic",
+        "victim_name": "Garen",
+        "killer_position": {
+            "x": 2879,
+            "y": 12044
+        },
+        "victim_position": {
+            "x": 2879,
+            "y": 12044
+        },
+        "assisting_participant_ids": [],
+        "player_name": "gatatic"
+    },
+    {
+        "game_time": "2453s",
+        "killer_name": "gatatic",
+        "victim_name": "Talon",
+        "killer_position": {
+            "x": 12215,
+            "y": 11298
+        },
+        "victim_position": {
+            "x": 12215,
+            "y": 11298
+        },
+        "assisting_participant_ids": [],
+        "player_name": "gatatic"
+    },
+    {
+        "game_time": "2487s",
+        "killer_name": "gatatic",
+        "victim_name": "Garen",
+        "killer_position": {
+            "x": 12024,
+            "y": 12942
+        },
+        "victim_position": {
+            "x": 12024,
+            "y": 12942
+        },
+        "assisting_participant_ids": [
+            2,
+            4
+        ],
+        "player_name": "gatatic"
+    },
+    {
+        "game_time": "2504s",
+        "killer_name": "Pyke",
+        "victim_name": "gatatic",
+        "killer_position": {
+            "x": 11670,
+            "y": 12604
+        },
+        "victim_position": {
+            "x": 11670,
+            "y": 12604
+        },
+        "assisting_participant_ids": [
+            8
+        ],
+        "player_name": "gatatic"
+    },
+    {
+        "game_time": "292s",
+        "killer_name": "Yone",
+        "victim_name": "gatatic",
+        "killer_position": {
+            "x": 823,
+            "y": 10470
+        },
+        "victim_position": {
+            "x": 823,
+            "y": 10470
+        },
+        "assisting_participant_ids": [],
+        "player_name": "gatatic"
+    },
+    {
+        "game_time": "621s",
+        "killer_name": "Viego",
+        "victim_name": "gatatic",
+        "killer_position": {
+            "x": 6143,
+            "y": 8374
+        },
+        "victim_position": {
+            "x": 6143,
+            "y": 8374
+        },
+        "assisting_participant_ids": [
+            9,
+            10
+        ],
+        "player_name": "gatatic"
+    },
+    {
+        "game_time": "740s",
+        "killer_name": "Yone",
+        "victim_name": "gatatic",
+        "killer_position": {
+            "x": 2214,
+            "y": 12352
+        },
+        "victim_position": {
+            "x": 2214,
+            "y": 12352
+        },
+        "assisting_participant_ids": [],
+        "player_name": "gatatic"
+    },
+    {
+        "game_time": "1052s",
+        "killer_name": "Yone",
+        "victim_name": "gatatic",
+        "killer_position": {
+            "x": 2299,
+            "y": 9713
+        },
+        "victim_position": {
+            "x": 2299,
+            "y": 9713
+        },
+        "assisting_participant_ids": [
+            7
+        ],
+        "player_name": "gatatic"
+    },
+    {
+        "game_time": "1179s",
+        "killer_name": "Ashe",
+        "victim_name": "gatatic",
+        "killer_position": {
+            "x": 5118,
+            "y": 5650
+        },
+        "victim_position": {
+            "x": 5118,
+            "y": 5650
+        },
+        "assisting_participant_ids": [
+            8,
+            10
+        ],
+        "player_name": "gatatic"
+    },
+    {
+        "game_time": "1183s",
+        "killer_name": "gatatic",
+        "victim_name": "Ashe",
+        "killer_position": {
+            "x": 5761,
+            "y": 5763
+        },
+        "victim_position": {
+            "x": 5761,
+            "y": 5763
+        },
+        "assisting_participant_ids": [
+            2,
+            5
+        ],
+        "player_name": "gatatic"
+    },
+    {
+        "game_time": "1305s",
+        "killer_name": "Ashe",
+        "victim_name": "gatatic",
+        "killer_position": {
+            "x": 6981,
+            "y": 7275
+        },
+        "victim_position": {
+            "x": 6981,
+            "y": 7275
+        },
+        "assisting_participant_ids": [
+            8,
+            10
+        ],
+        "player_name": "gatatic"
+    },
+    {
+        "game_time": "1358s",
+        "killer_name": "gatatic",
+        "victim_name": "Ashe",
+        "killer_position": {
+            "x": 3160,
+            "y": 2078
+        },
+        "victim_position": {
+            "x": 3160,
+            "y": 2078
+        },
+        "assisting_participant_ids": [
+            5
+        ],
+        "player_name": "gatatic"
+    },
+    {
+        "game_time": "1429s",
+        "killer_name": "gatatic",
+        "victim_name": "Veigar",
+        "killer_position": {
+            "x": 2132,
+            "y": 1555
+        },
+        "victim_position": {
+            "x": 2132,
+            "y": 1555
+        },
+        "assisting_participant_ids": [
+            2,
+            4
+        ],
+        "player_name": "gatatic"
+    },
+    {
+        "game_time": "1547s",
+        "killer_name": "Veigar",
+        "victim_name": "gatatic",
+        "killer_position": {
+            "x": 2942,
+            "y": 2379
+        },
+        "victim_position": {
+            "x": 2942,
+            "y": 2379
+        },
+        "assisting_participant_ids": [
+            6,
+            10
+        ],
+        "player_name": "gatatic"
+    },
+    {
+        "game_time": "397s",
+        "killer_name": "Riven",
+        "victim_name": "gatatic",
+        "killer_position": {
+            "x": 5428,
+            "y": 8302
+        },
+        "victim_position": {
+            "x": 5428,
+            "y": 8302
+        },
+        "assisting_participant_ids": [
+            2
+        ],
+        "player_name": "gatatic"
+    },
+    {
+        "game_time": "504s",
+        "killer_name": "gatatic",
+        "victim_name": "Pantheon",
+        "killer_position": {
+            "x": 10022,
+            "y": 5024
+        },
+        "victim_position": {
+            "x": 10022,
+            "y": 5024
+        },
+        "assisting_participant_ids": [
+            9
+        ],
+        "player_name": "gatatic"
+    },
+    {
+        "game_time": "507s",
+        "killer_name": "Diana",
+        "victim_name": "gatatic",
+        "killer_position": {
+            "x": 10073,
+            "y": 5439
+        },
+        "victim_position": {
+            "x": 10073,
+            "y": 5439
+        },
+        "assisting_participant_ids": [
+            4,
+            5
+        ],
+        "player_name": "gatatic"
+    },
+    {
+        "game_time": "639s",
+        "killer_name": "gatatic",
+        "victim_name": "Zyra",
+        "killer_position": {
+            "x": 6051,
+            "y": 6205
+        },
+        "victim_position": {
+            "x": 6051,
+            "y": 6205
+        },
+        "assisting_participant_ids": [
+            8
+        ],
+        "player_name": "gatatic"
+    },
+    {
+        "game_time": "643s",
+        "killer_name": "Diana",
+        "victim_name": "gatatic",
+        "killer_position": {
+            "x": 6826,
+            "y": 6590
+        },
+        "victim_position": {
+            "x": 6826,
+            "y": 6590
+        },
+        "assisting_participant_ids": [
+            3
+        ],
+        "player_name": "gatatic"
+    },
+    {
+        "game_time": "787s",
+        "killer_name": "gatatic",
+        "victim_name": "Pantheon",
+        "killer_position": {
+            "x": 6783,
+            "y": 8366
+        },
+        "victim_position": {
+            "x": 6783,
+            "y": 8366
+        },
+        "assisting_participant_ids": [
+            6
+        ],
+        "player_name": "gatatic"
+    },
+    {
+        "game_time": "795s",
+        "killer_name": "Riven",
+        "victim_name": "gatatic",
+        "killer_position": {
+            "x": 7215,
+            "y": 7175
+        },
+        "victim_position": {
+            "x": 7215,
+            "y": 7175
+        },
+        "assisting_participant_ids": [
+            2,
+            3,
+            5
+        ],
+        "player_name": "gatatic"
+    },
+    {
+        "game_time": "906s",
+        "killer_name": "gatatic",
+        "victim_name": "Ashe",
+        "killer_position": {
+            "x": 13388,
+            "y": 3778
+        },
+        "victim_position": {
+            "x": 13388,
+            "y": 3778
+        },
+        "assisting_participant_ids": [
+            10
+        ],
+        "player_name": "gatatic"
+    },
+    {
+        "game_time": "1153s",
+        "killer_name": "Riven",
+        "victim_name": "gatatic",
+        "killer_position": {
+            "x": 5900,
+            "y": 5700
+        },
+        "victim_position": {
+            "x": 5900,
+            "y": 5700
+        },
+        "assisting_participant_ids": [
+            2,
+            4
+        ],
+        "player_name": "gatatic"
+    },
+    {
+        "game_time": "1299s",
+        "killer_name": "Zyra",
+        "victim_name": "gatatic",
+        "killer_position": {
+            "x": 6786,
+            "y": 6916
+        },
+        "victim_position": {
+            "x": 6786,
+            "y": 6916
+        },
+        "assisting_participant_ids": [
+            1,
+            2
+        ],
+        "player_name": "gatatic"
+    },
+    {
+        "game_time": "1415s",
+        "killer_name": "Pantheon",
+        "victim_name": "gatatic",
+        "killer_position": {
+            "x": 7058,
+            "y": 7246
+        },
+        "victim_position": {
+            "x": 7058,
+            "y": 7246
+        },
+        "assisting_participant_ids": [
+            1,
+            2,
+            3,
+            4
+        ],
+        "player_name": "gatatic"
+    },
+    {
+        "game_time": "1475s",
+        "killer_name": "Zyra",
+        "victim_name": "gatatic",
+        "killer_position": {
+            "x": 9795,
+            "y": 9621
+        },
+        "victim_position": {
+            "x": 9795,
+            "y": 9621
+        },
+        "assisting_participant_ids": [
+            1,
+            4,
+            5
+        ],
+        "player_name": "gatatic"
+    },
+    {
+        "game_time": "1579s",
+        "killer_name": "gatatic",
+        "victim_name": "Ashe",
+        "killer_position": {
+            "x": 8046,
+            "y": 5632
+        },
+        "victim_position": {
+            "x": 8046,
+            "y": 5632
+        },
+        "assisting_participant_ids": [
+            10
+        ],
+        "player_name": "gatatic"
+    },
+    {
+        "game_time": "1589s",
+        "killer_name": "gatatic",
+        "victim_name": "Diana",
+        "killer_position": {
+            "x": 8999,
+            "y": 5624
+        },
+        "victim_position": {
+            "x": 8999,
+            "y": 5624
+        },
+        "assisting_participant_ids": [
+            6,
+            9,
+            10
+        ],
+        "player_name": "gatatic"
+    },
+    {
+        "game_time": "1592s",
+        "killer_name": "Riven",
+        "victim_name": "gatatic",
+        "killer_position": {
+            "x": 8872,
+            "y": 6190
+        },
+        "victim_position": {
+            "x": 8872,
+            "y": 6190
+        },
+        "assisting_participant_ids": [
+            2,
+            3,
+            5
+        ],
+        "player_name": "gatatic"
+    },
+    {
+        "game_time": "1808s",
+        "killer_name": "Diana",
+        "victim_name": "gatatic",
+        "killer_position": {
+            "x": 10090,
+            "y": 7298
+        },
+        "victim_position": {
+            "x": 10090,
+            "y": 7298
+        },
+        "assisting_participant_ids": [
+            1,
+            3,
+            4
+        ],
+        "player_name": "gatatic"
+    },
+    {
+        "game_time": "2060s",
+        "killer_name": "Diana",
+        "victim_name": "gatatic",
+        "killer_position": {
+            "x": 13875,
+            "y": 12604
+        },
+        "victim_position": {
+            "x": 13875,
+            "y": 12604
+        },
+        "assisting_participant_ids": [
+            1,
+            3,
+            5
+        ],
+        "player_name": "gatatic"
+    },
+    {
+        "game_time": "662s",
+        "killer_name": "Sion",
+        "victim_name": "gatatic",
+        "killer_position": {
+            "x": 1315,
+            "y": 11861
+        },
+        "victim_position": {
+            "x": 1315,
+            "y": 11861
+        },
+        "assisting_participant_ids": [
+            2
+        ],
+        "player_name": "gatatic"
+    },
+    {
+        "game_time": "965s",
+        "killer_name": "Sion",
+        "victim_name": "gatatic",
+        "killer_position": {
+            "x": 4404,
+            "y": 9766
+        },
+        "victim_position": {
+            "x": 4404,
+            "y": 9766
+        },
+        "assisting_participant_ids": [
+            3
+        ],
+        "player_name": "gatatic"
+    },
+    {
+        "game_time": "1265s",
+        "killer_name": "gatatic",
+        "victim_name": "Caitlyn",
+        "killer_position": {
+            "x": 7297,
+            "y": 7598
+        },
+        "victim_position": {
+            "x": 7297,
+            "y": 7598
+        },
+        "assisting_participant_ids": [],
+        "player_name": "gatatic"
+    },
+    {
+        "game_time": "1376s",
+        "killer_name": "Caitlyn",
+        "victim_name": "gatatic",
+        "killer_position": {
+            "x": 4460,
+            "y": 8186
+        },
+        "victim_position": {
+            "x": 4460,
+            "y": 8186
+        },
+        "assisting_participant_ids": [
+            2,
+            3,
+            5
+        ],
+        "player_name": "gatatic"
+    },
+    {
+        "game_time": "1444s",
+        "killer_name": "gatatic",
+        "victim_name": "Sion",
+        "killer_position": {
+            "x": 6390,
+            "y": 13350
+        },
+        "victim_position": {
+            "x": 6390,
+            "y": 13350
+        },
+        "assisting_participant_ids": [
+            9,
+            10
+        ],
+        "player_name": "gatatic"
+    },
+    {
+        "game_time": "1578s",
+        "killer_name": "gatatic",
+        "victim_name": "Mordekaiser",
+        "killer_position": {
+            "x": 10267,
+            "y": 4904
+        },
+        "victim_position": {
+            "x": 10267,
+            "y": 4904
+        },
+        "assisting_participant_ids": [
+            7
+        ],
+        "player_name": "gatatic"
+    },
+    {
+        "game_time": "1579s",
+        "killer_name": "Caitlyn",
+        "victim_name": "gatatic",
+        "killer_position": {
+            "x": 10258,
+            "y": 5530
+        },
+        "victim_position": {
+            "x": 10258,
+            "y": 5530
+        },
+        "assisting_participant_ids": [
+            2,
+            3
+        ],
+        "player_name": "gatatic"
+    },
+    {
+        "game_time": "1681s",
+        "killer_name": "Renata",
+        "victim_name": "gatatic",
+        "killer_position": {
+            "x": 9362,
+            "y": 9419
+        },
+        "victim_position": {
+            "x": 9362,
+            "y": 9419
+        },
+        "assisting_participant_ids": [
+            1,
+            4
+        ],
+        "player_name": "gatatic"
+    },
+    {
+        "game_time": "1771s",
+        "killer_name": "gatatic",
+        "victim_name": "Ryze",
+        "killer_position": {
+            "x": 4917,
+            "y": 13432
+        },
+        "victim_position": {
+            "x": 4917,
+            "y": 13432
+        },
+        "assisting_participant_ids": [
+            8
+        ],
+        "player_name": "gatatic"
+    },
+    {
+        "game_time": "1837s",
+        "killer_name": "Caitlyn",
+        "victim_name": "gatatic",
+        "killer_position": {
+            "x": 9822,
+            "y": 8862
+        },
+        "victim_position": {
+            "x": 9822,
+            "y": 8862
+        },
+        "assisting_participant_ids": [
+            1,
+            2,
+            5
+        ],
+        "player_name": "gatatic"
+    },
+    {
+        "game_time": "1897s",
+        "killer_name": "gatatic",
+        "victim_name": "Caitlyn",
+        "killer_position": {
+            "x": 12123,
+            "y": 11229
+        },
+        "victim_position": {
+            "x": 12123,
+            "y": 11229
+        },
+        "assisting_participant_ids": [
+            10
+        ],
+        "player_name": "gatatic"
+    },
+    {
+        "game_time": "1927s",
+        "killer_name": "gatatic",
+        "victim_name": "Ryze",
+        "killer_position": {
+            "x": 7633,
+            "y": 13337
+        },
+        "victim_position": {
+            "x": 7633,
+            "y": 13337
+        },
+        "assisting_participant_ids": [
+            8
+        ],
+        "player_name": "gatatic"
+    },
+    {
+        "game_time": "2082s",
+        "killer_name": "Mordekaiser",
+        "victim_name": "gatatic",
+        "killer_position": {
+            "x": 8368,
+            "y": 10286
+        },
+        "victim_position": {
+            "x": 8368,
+            "y": 10286
+        },
+        "assisting_participant_ids": [
+            1,
+            4
+        ],
+        "player_name": "gatatic"
+    }
+]
