@@ -6,16 +6,127 @@ html,body {
   margin: 0px;
   padding: 0px;
   overflow-x: hidden;
-  background: -webkit-linear-gradient(90deg,rgba(154, 140, 152, 1) 0%, rgba(34, 34, 59, 1) 100%);
+  background: rgba(34, 34, 59, 1);
   font-family: Roboto-Light;
   line-height: 1.8;
   font-style: normal;
   font-weight: 400;
 }
+/* This background image stuff is killing me right now.
+.side-image-left {
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 300px;
+  object-fit: cover;
+  opacity: 0.5;
+}
+
+.side-image-right {
+  position: fixed;
+  right: 0;
+  top: 0;
+  height: 100%;
+  width: 300px;
+  object-fit: cover;
+  opacity: 0.5;
+  
+}
+
+@media (max-width: 1200px) {
+  .side-image-left,
+  .side-image-right {
+    opacity: 0.4;
+  }
+}
+
+@media (max-width: 1000px) {
+  .side-image-left,
+  .side-image-right {
+    opacity: 0.3;
+  }
+}
+
+@media (max-width: 900px) {
+  .side-image-left,
+  .side-image-right {
+    opacity: 0.2;
+  }
+}
+
+@media (max-width: 850px) {
+  .side-image-left,
+  .side-image-right {
+    opacity: 0.1;
+  }
+}
+
+@media (max-width: 768px) {
+  .side-image-left,
+  .side-image-right {
+    display: none;
+  }
+}
+
+*/
+#mpg-app {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #c9ada7ff;
+  margin: 0 auto;
+  width: 600px;
+  border: 3px solid #273f59;
+  padding: 0 2em 1em;
+}
+
+
+#mpg-app h1 {
+  color: #273f59;
+}
+
+#mpg-app div {
+  margin-bottom: 1em;
+}
+
+#mpg-app label {
+  display: inline-block;
+  width: 10em;
+  text-align: right;
+  margin-right: 0.5em;
+}
+
+#mpg-app #mpg {
+  background-color: #eee;
+}
+
+@media (max-width: 768px) {
+  #mpg-app {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+
+  #mpg-app h1 {
+    font-size: 18px;
+  }
+
+  #mpg-app label {
+    width: 100%;
+    text-align: left;
+    margin-bottom: 5px;
+  }
+
+  #mpg-app input[type="text"],
+  #mpg-app input[type="button"] {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}
 
 ul {
   list-style-type: none;
 }
+
 @media (min-width: 1400px) {
   .container{
     font-family: Roboto-Light;
@@ -146,16 +257,16 @@ a:hover, a:focus{
   list-style: none;
 }
 
-  .page-section__paragraph__portfolio{
-    font-size: 20px;
-    color: #c9ada7ff;
-    max-width: 540px;
-    text-align: center;
-    margin-right: auto;
-    margin-left: auto;
-    margin-bottom: 60px;
-    list-style: none;
-  }
+.page-section__paragraph__portfolio{
+  font-size: 20px;
+  color: #c9ada7ff;
+  max-width: 540px;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 60px;
+  list-style: none;
+}
 
 .page-section__paragraph--white{
   color: #c9ada7ff;
@@ -201,16 +312,14 @@ a:hover, a:focus{
   color: #273f59;
   background-color: #c9ada7ff;
 }
-/*--space-cadet: #22223bff;
---ultra-violet: #4a4e69ff;
---rose-quartz: #9a8c98ff;
---pale-dogwood: #c9ada7ff;
---isabelline: #f2e9e4ff;*/
 
 .button--colorful{
   background-color: #4a4e69ff;
   font-family: Roboto-Light;
   color: #fff;
+  padding: 12px 55px 12px 55px;
+  display:inline-block;
+  margin-bottom: 20px;
 }
 
 .button--colorful:visited,
@@ -231,7 +340,7 @@ a:hover, a:focus{
 
 .button--margin{
   display: inline-block;
-  margin-top: 40px;
+
 }
 
 .portfolio .button{
@@ -277,8 +386,76 @@ a:hover, a:focus{
   z-index: 10;
 }
 
+.collapsible-container {
+  display: none;
+  position: relative;
+  margin-top: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  background-color: #455a64;
+  overflow: auto;
+  max-height: 400px;
+}
 
 
+@media (max-width: 768px) {
+  .collapsible-container {
+    padding: 10px;
+    max-height: 300px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .collapsible-container main {
+    font-size: 14px;
+  }
+
+  .collapsible-container label {
+    width: 100%;
+    text-align: left;
+    margin-bottom: 5px;
+  }
+
+  .collapsible-container input[type="text"],
+  .collapsible-container input[type="button"] {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}
+
+.minimize-button {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  background-color: #455a64;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 0; /* Square edges */
+}
+
+/* Media query to adjust minimize button on smaller screens */
+@media (max-width: 768px) {
+  .minimize-button {
+    top: 10px; /* Adjust position for smaller screens */
+    right: 10px; /* Adjust position for smaller screens */
+    padding: 3px 6px; /* Reduce padding for smaller screens */
+    font-size: 14px; /* Reduce font size for smaller screens */
+  }
+}
+
+pre {
+  background-color: #c9ada7ff;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+code {
+  font-family: monospace;
+  padding: 10px;
+  display: block;
+}
 .footer{
   font-family: Roboto-Light;
   padding-top: 50px;
@@ -329,38 +506,3 @@ a:hover, a:focus{
   color: #fff;
   font-family: Roboto-Light;
 }
-/* CSS HEX
---space-cadet: #22223bff;
---ultra-violet: #4a4e69ff;
---rose-quartz: #9a8c98ff;
---pale-dogwood: #c9ada7ff;
---isabelline: #f2e9e4ff;
-
-
-/* SCSS HEX
-$space-cadet: #22223bff;
-$ultra-violet: #4a4e69ff;
-$rose-quartz: #9a8c98ff;
-$pale-dogwood: #c9ada7ff;
-$isabelline: #f2e9e4ff;
-
-
-
-SCSS RGB
-$space-cadet: rgba(34, 34, 59, 1);
-$ultra-violet: rgba(74, 78, 105, 1);
-$rose-quartz: rgba(154, 140, 152, 1);
-$pale-dogwood: rgba(201, 173, 167, 1);
-$isabelline: rgba(242, 233, 228, 1);
-
-SCSS Gradient
-$gradient-top: linear-gradient(0deg, #22223bff, #4a4e69ff, #9a8c98ff, #c9ada7ff, #f2e9e4ff);
-$gradient-right: linear-gradient(90deg, #22223bff, #4a4e69ff, #9a8c98ff, #c9ada7ff, #f2e9e4ff);
-$gradient-bottom: linear-gradient(180deg, #22223bff, #4a4e69ff, #9a8c98ff, #c9ada7ff, #f2e9e4ff);
-$gradient-left: linear-gradient(270deg, #22223bff, #4a4e69ff, #9a8c98ff, #c9ada7ff, #f2e9e4ff);
-$gradient-top-right: linear-gradient(45deg, #22223bff, #4a4e69ff, #9a8c98ff, #c9ada7ff, #f2e9e4ff);
-$gradient-bottom-right: linear-gradient(135deg, #22223bff, #4a4e69ff, #9a8c98ff, #c9ada7ff, #f2e9e4ff);
-$gradient-top-left: linear-gradient(225deg, #22223bff, #4a4e69ff, #9a8c98ff, #c9ada7ff, #f2e9e4ff);
-$gradient-bottom-left: linear-gradient(315deg, #22223bff, #4a4e69ff, #9a8c98ff, #c9ada7ff, #f2e9e4ff);
-$gradient-radial: radial-gradient(#22223bff, #4a4e69ff, #9a8c98ff, #c9ada7ff, #f2e9e4ff);
-*/

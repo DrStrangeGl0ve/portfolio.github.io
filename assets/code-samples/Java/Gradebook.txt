@@ -1,0 +1,452 @@
+
+import java.util.Arrays;
+import java.util.Scanner;
+
+class Student {
+    /*
+     * initializing the fields which define a Student object.
+     * These will be used to store name, ID, scores for each category, extra credit,
+     * overall scores, letter grade, and scholarship info.
+     */
+    public double[] quizScores, examScores, programScores, discussionScores, SLOscores, scholarships, extraCreditArray;
+    public String lastName;
+    public String firstName;
+    public String id;
+    public double studentAverage;
+    public double weightedAverage;
+
+    // the weights of the score categories
+    public final double quizWeight = 0.15;
+    public final double examWeight = 0.15;
+    public final double programWeight = 0.20;
+    public final double discussionWeight = 0.15;
+    public final double SLOWeight = 0.35;
+    public double extraCredit;
+    public double scholarship;
+    public char letterGrade;
+
+    // creating a scanner instance for the student class.
+    Scanner keyboard;
+
+    // Constructor for the student class. Contains the scanner initialization and
+    // all necessary methods for creating a Student.
+    public static Student initializeStudent(Scanner keyboard) {
+
+        Student student = new Student();
+        student.keyboard = keyboard;
+        student.firstName = student.GetFirstNames(keyboard);
+        student.lastName = student.GetLastName(keyboard);
+        student.id = student.GetID(keyboard);
+        student.studentAverage = student.GetStudentAverage();
+        student.GetLetterGrade(student.studentAverage);
+        student.Scholarships();
+        return student;
+        // End of student constructor
+    }
+
+        public String GetFirstNames(Scanner keyboard) {
+        String firstName = "";
+        System.out.println("Enter the student's first name:");
+        if (keyboard.hasNext()) {
+            firstName = keyboard.next();
+        }
+        return firstName;
+    }
+
+        public String GetLastName(Scanner keyboard) {
+        String lastName = "";
+        System.out.println("Enter the student's last name:");
+        if (keyboard.hasNext()) {
+            lastName = keyboard.next();
+        }
+        return lastName;
+    }
+
+        public String GetID(Scanner keyboard) {
+        String id = "";
+        System.out.println("Enter the student's ID:");
+        if (keyboard.hasNext()) {
+            id = keyboard.next();
+        }
+        return id;
+    }
+
+    // Gets the scores from each category and stores them in an array. If an invalid
+    // score is entered,
+    // the user is prompted to enter a valid score.
+    public double[] GetScores(Scanner keyboard, double[] category, String categoryName) {
+        System.out.println("Enter the student's " + categoryName + " scores or -1 to move on:");
+        // instantiates array of values for scores of each category
+        category = new double[0];
+        while (keyboard.hasNextDouble()) {
+            double score = keyboard.nextDouble();
+            if (score == -1) {
+                break;
+            } else if (score < 0 || score > 100) {
+                System.out.println("Invalid input. Please enter a value between 0 and 10.");
+            } else {
+                // duplicates the array with a length 1 higher than the previous array
+                double[] tempScores = new double[category.length + 1];
+                // copies the values from the previous array to the new array
+                tempScores = Arrays.copyOf(category, category.length + 1);
+                // adds quiz scores to the array
+                tempScores[tempScores.length - 1] = score;
+                // gives the original array name a new value including the newest quiz score
+                category = tempScores;
+            }
+        }
+        System.out.println("Scores for " + categoryName + ": " + Arrays.toString(category).replace(",", ", "));
+        keyboard.nextLine();
+        return category;
+    }
+
+    // Uses an array of scores and it's weight to calculate the weighted value of a
+    // given score category.
+    public double CalculateScores(double[] scores, double weight) {
+        double average = 0;
+        double sum = 0;
+        double scoreAverage = 0;
+        for (int i = 0; i < scores.length; i++) {
+            sum += scores[i];
+        }
+        average = sum / scores.length;
+        scoreAverage = average * weight;
+        return scoreAverage;
+    }
+
+    // Uses the GetScores method to get the scores for each category, then uses
+    // CalculateScores() on each category to get the weighted average.
+    public double CalculateWeighted() {
+        quizScores = GetScores(keyboard, quizScores, "Quiz");
+        examScores = GetScores(keyboard, examScores, "Exam");
+        discussionScores = GetScores(keyboard, discussionScores, "Discussion");
+        programScores = GetScores(keyboard, programScores, "Program");
+        SLOscores = GetScores(keyboard, SLOscores, "SLO");
+        weightedAverage = CalculateScores(quizScores, quizWeight) + CalculateScores(examScores, examWeight)
+                + CalculateScores(programScores, programWeight) + CalculateScores(discussionScores, discussionWeight)
+                + CalculateScores(SLOscores, SLOWeight);
+        return weightedAverage;
+    }
+
+    // Asks the user if they would like to add extra credit, then asks for the value
+    public double GetExtraCredit(Scanner keyboard) {
+        System.out.println("Would you like to add extra credit? (yes/no):");
+        extraCredit = 0;
+        String response = keyboard.nextLine().trim().toLowerCase();
+        if (response.equals("yes")) {
+            System.out.println("Enter the student's extra credit (between 0 and 5):");
+            while (keyboard.hasNextLine()) {
+                String inputStr = keyboard.nextLine();
+                try {
+                    double input = Double.parseDouble(inputStr);
+                    if (input >= 0 && input <= 5) {
+                        extraCredit = input;
+                        return extraCredit;
+                    } else {
+                        System.out.println("Invalid input. Please enter a value between 0 and 5.");
+                    }
+                } catch (NumberFormatException e) {
+                    System.out.println("Invalid input. Please enter a valid number.");
+                }
+            }
+        } else {
+            System.out.println("No extra credit added.");
+        }
+        return extraCredit;
+    }
+
+    // Runs the methods to calculate the weighted average and extra credit, then
+    // adds them for this output.
+    public double GetStudentAverage() {
+        studentAverage = CalculateWeighted() + GetExtraCredit(keyboard);
+        if (studentAverage > 100.00) {
+            System.out.println("Student average cannot be greater than 100. Setting grade to 100.");
+            studentAverage = 100.00;
+        }
+        return studentAverage;
+    }
+
+    // returns the letter grade based on the student's average
+    public char GetLetterGrade(double studentAverage) {
+        switch ((int) studentAverage / 10) {
+            case 10:
+                letterGrade = 'A';
+                return letterGrade;
+            case 9:
+                letterGrade = 'A';
+                return letterGrade;
+            case 8:
+                letterGrade = 'B';
+                return letterGrade;
+            case 7:
+                letterGrade = 'C';
+                return letterGrade;
+            case 6:
+                letterGrade = 'D';
+                return letterGrade;
+            default:
+                letterGrade = 'F';
+                return letterGrade;
+        }
+    }
+
+    // Returns the scholarship amount depending on the student's average.
+    public double Scholarships() {
+        scholarship = 0;
+        if (studentAverage >= 85 && studentAverage < 90) {
+            scholarship = 250;
+        } else if (studentAverage >= 90 && studentAverage < 95) {
+            scholarship = 500;
+        } else if (studentAverage >= 95 && studentAverage <= 100) {
+            scholarship = 750;
+        }
+        return scholarship;
+    }
+}
+
+class Course {
+    /*
+     * Each course needs a name, section number, and a list of students
+     * This list will include their first name, last name, id, scores, and
+     * scholarship info, as well as the highest and lowest averages in the class and
+     * the number of students above and below a certain threshold.
+     */
+    String name;
+    String sectionNumber;
+    public Student[] studentList;
+    double courseAverage;
+    double highestAverage;
+    double lowestAverage;
+    int aboveThreshold;
+    int belowThreshold;
+    // Creating the scanner instance for this class.
+    Scanner keyboard = new Scanner(System.in);
+
+    // Constructor for the Course class. This will be used to create a new course
+    // object.
+    public Course(Scanner keyboard) {
+
+        // Requests course name. Sets the value to a string. Will later be added to
+        // parallel array in App class.
+        System.out.println("Enter the course name:");
+        name = keyboard.nextLine();
+
+        // Requests section number. Sets the value to a string. Will later be added to
+        // parallel array in App class.
+        System.out.println("Enter the section number:");
+        sectionNumber = keyboard.nextLine();
+
+        // Create an array to temporarily store 1 student entry.
+        Student[] students = new Student[0];
+
+        // Ask user if they want another student.
+        System.out.println("Would you like to add a student? (yes/no)");
+
+         while (keyboard.hasNext() && (keyboard.next()).equalsIgnoreCase("yes")) {
+	            Student student = Student.initializeStudent(keyboard);
+
+            // Add the student to the array by duplicating the array with a length 1 higher
+            students = Arrays.copyOf(students, students.length + 1);
+            students[students.length - 1] = student;
+            System.out.println("Would you like to add another student? (yes/no)");
+        }
+        // ensures that the scanner is ready for the next input.
+        if (keyboard.hasNextLine()) {
+            keyboard.nextLine();
+        }
+
+        // set the studentList to the array of students
+        studentList = students;
+
+        // Runs the Course class methods to calculate the course information.
+        courseAverage = CourseAverage(students);
+        highestAverage = GetHighestAverage(students);
+        lowestAverage = GetLowestAverage(students);
+        aboveThreshold = AboveThreshold(students, 85);
+        belowThreshold = BelowThreshold(students, 70);
+
+        // Prints the student info tables at the end of the class
+        printCourseHeader(name, sectionNumber);
+        printStudentTable(students);
+
+        // End course constructor
+    }
+
+    // calculates the average score for the course by adding all averages and
+    // dividing by the number of students
+    double CourseAverage(Student[] students) {
+        courseAverage = 0;
+        double sum = 0;
+        for (int i = 0; i < students.length; i++) {
+            sum += students[i].studentAverage;
+        }
+        courseAverage = sum / students.length;
+        return courseAverage;
+
+    }
+
+    // calculates the highest average score in class
+    double GetHighestAverage(Student[] students) {
+        highestAverage = 0;
+        for (int i = 0; i < students.length; i++) {
+
+            if (students[i].studentAverage > highestAverage) {
+                highestAverage = students[i].studentAverage;
+            }
+        }
+        return highestAverage;
+    }
+
+    // calculates the lowest average score in class
+    double GetLowestAverage(Student[] students) {
+        double lowestAverage = 100;
+        for (int i = 0; i < students.length; i++) {
+            if (students[i].studentAverage < lowestAverage) {
+                lowestAverage = students[i].studentAverage;
+            }
+        }
+        return lowestAverage;
+    }
+
+    // calculates number of students who scored above the threshold
+    int AboveThreshold(Student[] students, double threshold) {
+        int aboveThreshold = 0;
+
+        for (int i = 0; i < students.length; i++) {
+            if (students[i].studentAverage > threshold) {
+                aboveThreshold++;
+            }
+        }
+        return aboveThreshold;
+    }
+
+    // calculates number of students who scored below the threshold
+    int BelowThreshold(Student[] students, double threshold) {
+        int belowThreshold = 0;
+
+        for (int i = 0; i < students.length; i++) {
+            if (students[i].studentAverage < threshold) {
+                belowThreshold++;
+            }
+        }
+        return belowThreshold;
+
+    }
+
+    public void printCourseHeader(String courseName, String sectionNumber) {
+        String header = "Course: " + courseName + ", Section: " + sectionNumber;
+
+        // calculating total spaces to add by subtracting the length of the header from
+        // 81 (the total console width)
+        int totalPadding = 81 - header.length();
+
+        // Spaces on each side
+        int paddingEachSide = totalPadding / 2;
+
+        // Create padding strings using the above values.
+        String padding = String.format("%" + paddingEachSide + "s", "");
+
+        // print 2 blank lines then the header with padding on each side.
+        System.out.println("\n\n");
+        System.out.println(padding + header + padding);
+        System.out.println();
+    }
+
+    // outputs student information in a table format
+    // this part is NOT parallel arrays. Only uses the student data from each
+    // instance.
+    public void printStudentTable(Student[] students) {
+        System.out.printf("%-10s %-10s %-15s %-15s %-20s %-15s %-15s\n", "Last Name", "ID", "Weighted Score",
+                "Extra Credit", "Student Average", "Letter Grade", "Scholarship");
+        System.out.print(
+                "------------------------------------------------------------------------------------------------------\n");
+        for (Student student : students) {
+            System.out.printf("%-10s %-10s %-15.2f %-15.2f %-20.2f %-15s $%-14.2f\n",
+                    student.lastName,
+                    student.id,
+                    student.weightedAverage,
+                    student.extraCredit,
+                    student.studentAverage,
+                    student.letterGrade,
+                    student.scholarship);
+        }
+        // print 3 blank lines after the table to separate from the next course request
+        // or final table.
+        System.out.println("\n\n\n");
+    }
+
+}
+
+// Main class for the program. This is where the user will input the number of
+// courses and all course data.
+
+public class Gradebook {
+    public static void main(String[] args) {
+        // initialize number of courses to 0. It will be reset based on user input.
+        int numCourses = 0;
+
+        // open new scanner
+        Scanner keyboard = new Scanner(System.in);
+
+        // request number of courses
+        System.out.println("Enter the number of courses: ");
+
+        // if the input is an integer, set the number of courses to that value and
+        // initialize arrays.
+        // if not, output an error message and try again.
+        int input;
+        while (!keyboard.hasNextInt() || (input = keyboard.nextInt()) < 1) {
+            keyboard.nextLine(); // discard the invalid input
+            System.out.println("Invalid command. Please enter an integer.");
+        }
+        keyboard.nextLine(); // discard the newline character to prepare for the course name and section ID
+                             // inputs.
+
+        // set the number of courses to the valid input value.
+        numCourses = input;
+
+        // creating parallel arrays to store course data for parsing and output.
+        Course[] courses = new Course[numCourses];
+        String[] names = new String[numCourses];
+        String[] sections = new String[numCourses];
+        double[] averages = new double[numCourses];
+        int[] aboveThreshold = new int[numCourses];
+        int[] belowThreshold = new int[numCourses];
+        double[] highestAverage = new double[numCourses];
+        double[] lowestAverage = new double[numCourses];
+
+        // generating parallel arrays index values based on the number of courses.
+        for (int i = 0; i < numCourses; i++) {
+            courses[i] = new Course(keyboard);
+            names[i] = courses[i].name;
+            sections[i] = courses[i].sectionNumber;
+            averages[i] = courses[i].courseAverage;
+            aboveThreshold[i] = courses[i].aboveThreshold;
+            belowThreshold[i] = courses[i].belowThreshold;
+            highestAverage[i] = courses[i].highestAverage;
+            lowestAverage[i] = courses[i].lowestAverage;
+        }
+
+        // Outputting Course Summary for all courses
+        System.out.println();
+        System.out.println();
+        // header for the course summary table
+        System.out.printf("%35s%s%35s\n\n", "", "Course Summary", "");
+        System.out.println();
+        // sub-header for the course data fields
+        System.out.printf("%-10s %-10s %-10s %-10s %-10s %-15s %-15s\n", "Course", "Section", "Average", "Above 85",
+                "Below 70", "Highest Average", "Lowest Average");
+        System.out.println("------------------------------------------------------------------------------------");
+
+        // using the parallel arrays to output the course data in a table format based
+        // on their indices.
+        for (int i = 0; i < numCourses; i++) {
+            System.out.printf("%-10s %-10s %-10.2f %-10d %-10d %-15.2f %-15.2f\n", names[i], sections[i], averages[i],
+                    aboveThreshold[i], belowThreshold[i], highestAverage[i], lowestAverage[i]);
+        }
+
+        // close scanner
+        keyboard.close();
+    }
+
+}

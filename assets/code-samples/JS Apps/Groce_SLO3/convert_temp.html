@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="convert_temp.css">
+    <title>Convert Temperatures</title>
+</head>
+<body>
+	<img src="SideImage.png" alt="Side Image" class="side-image-left">
+	<img src="SideImage.png" alt="Side Image" class="side-image-right">
+	<div class = "container">
+		<div class="text-boxes">
+			<label class="switch">
+				<input type="checkbox" id="toggle-light-mode">
+				<span class="slider round"></span>
+			</label>	
+		</div>
+		<div class="links">
+			<p style="text-decoration: underline;">Navigation</p>
+			<a href="index.html">Home</a>
+			<a href="whatsnext.html">What's Next</a>
+		</div>
+		<header>
+		<h1>Convert Temperatures</h1>
+		</header>
+		<main>
+			<div class="text-boxes">
+				<input type="radio" name="conversion_type" id="to_celsius" checked>Fahrenheit to Celsius
+			</div>
+			<div class="text-boxes">
+				<input type="radio" name="conversion_type" id="to_fahrenheit">Celsius to Fahrenheit
+			</div>
+			<div class="text-boxes">
+				<label id="degree_label_1">Enter F degrees:</label>
+				<input type="text" id="degrees_entered">
+			</div>
+			<div class="text-boxes">
+				<label id="degree_label_2">Degrees Celsius:</label>
+				<input type="text" id="degrees_computed" disabled>
+			</div>
+			<div class="text-boxes">
+				<input type="button" id="convert" value="Convert" />
+			</div>
+			<div>
+				<p id="message" style="color: red;"></p>
+			</div>
+		</main>
+		
+	<script src="convert_temp.js"></script>
+	<script src="mainstyle.js"></script>
+	</div>
+</body>
+</html>	

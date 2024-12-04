@@ -1,7 +1,7 @@
 
 import java.util.Scanner;
 
-public class GroceWaterwell {
+public class Waterwell {
 
     public static void main(String[] args) {
         // declares a new scanner which will read for user input.
