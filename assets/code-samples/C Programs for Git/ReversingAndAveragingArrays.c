@@ -1,6 +1,4 @@
-#include <math.h>
 #include <stdio.h>
-#include <stdlib.h>
 
 // Declaring averageValue and addedValue variables globally so they reset
 // between main() loops.

@@ -1,9 +1,8 @@
-#include <math.h>
+
 #include <stdio.h>
 #include <stdlib.h>
 
 int main() {
-
 
   float gallonsUsed;
   float milesDriven;
@@ -11,8 +10,6 @@ int main() {
   float combinedMilesPerGallon = 0;
   float totalMeasuredTanks = 0;
   float averageMilesPerGallon;
-
-
 
   printf("Enter the gallons used (-1 to end): \n");
   scanf("%f", &gallonsUsed);
@@ -30,7 +27,6 @@ int main() {
     scanf("%f", &gallonsUsed);
   }
 
- 
   averageMilesPerGallon = combinedMilesPerGallon / totalMeasuredTanks;
   printf("Average miles-per-gallon for all tanks is %.2f \n",
          averageMilesPerGallon);

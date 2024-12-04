@@ -3,6 +3,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const collapsibleContainer = document.getElementById('collapsible-container');
     const minimizeButton = document.getElementById('minimize-button');
     const mpgAppButton = document.getElementById('mpg-app-button');
+    
 
     buttons.forEach(button => {
         button.addEventListener('click', function(event) {
@@ -11,6 +12,8 @@ document.addEventListener('DOMContentLoaded', function() {
             // Update the filePath based on the button clicked
             let filePath;
             switch (button.textContent.trim()) {
+            
+                //Java Cases
                 case 'Water Well':
                     filePath = 'assets/code-samples/Java/Lab 1/src/Waterwell.txt';
                     break;
@@ -19,6 +22,32 @@ document.addEventListener('DOMContentLoaded', function() {
                     break;
                 case 'Gradebook':
                     filePath = 'assets/code-samples/Java/Gradebook.txt';
+                    break;
+                //Python Cases
+                case 'Number Range':
+                    filePath = 'assets/code-samples/Python/number_range.py';
+                    break;
+                case 'Riot Game Data':
+                    filePath = 'assets/code-samples/Python/game_data.py';
+                    break;
+                case 'Flask Deployment':
+                    filePath = 'assets/code-samples/Python/flask.py';
+                    break;
+                //C Cases
+                case 'Build & Search Array':
+                    filePath = 'assets/code-samples/C Programs for Git/GeneratingAndSearchingArray.c';
+                    break;
+                case 'Customer Bill':
+                    filePath = 'assets/code-samples/C Programs for Git/CustomerBill.c';
+                    break;
+                case 'Payroll by Position':
+                    filePath = 'assets/code-samples/C Programs for Git/PayrollPositions.c';
+                    break;
+                case 'Reverse & Average Array':
+                    filePath = 'assets/code-samples/C Programs for Git/ReversingAndAveragingArrays.c';
+                    break;
+                case "MPG":
+                    filePath = 'assets/code-samples/C Programs for Git/MilesPerGallon.c';
                     break;
                 default:
                     filePath = ''; // Default to an empty path if no match
@@ -64,7 +93,6 @@ document.addEventListener('DOMContentLoaded', function() {
         `;
         collapsibleContainer.appendChild(minimizeButton); // Re-append the minimize button
         collapsibleContainer.style.display = 'block';
-
         // Add event listener for the calculate button
         document.getElementById('calculate').addEventListener('click', function() {
             const miles = parseFloat(document.getElementById('miles').value);
@@ -86,4 +114,4 @@ document.addEventListener('DOMContentLoaded', function() {
             .replace(/"/g, "&quot;")
             .replace(/'/g, "&#039;");
     }
-});
+    });
