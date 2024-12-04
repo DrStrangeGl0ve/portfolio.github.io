@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', function() {
             
                 //Java Cases
                 case 'Water Well':
-                    filePath = 'assets/code-samples/Java/Lab 1/src/Waterwell.txt';
+                    filePath = 'assets/code-samples/Java/Waterwell.txt';
                     break;
                 case 'Book Billing':
                     filePath = 'assets/code-samples/Java/GroceBookBilling.txt';
