@@ -6,7 +6,7 @@ html,body {
   margin: 0px;
   padding: 0px;
   overflow-x: hidden;
-  background: rgba(34, 34, 59, 1);
+  background: #273f59;
   font-family: Roboto-Light;
   line-height: 1.8;
   font-style: normal;
@@ -17,7 +17,7 @@ html,body {
 
 #mpg-app {
   font-family: Arial, Helvetica, sans-serif;
-  background-color: #c9ada7ff;
+  background-color: #e6ecef;
   margin: 0 auto;
   width: 600px;
   border: 3px solid #273f59;
@@ -92,6 +92,7 @@ a:hover, a:focus{
   position: relative;
   z-index: 1;
   margin-top: 50px;
+  padding-bottom: 5%;
 }
 
 .header--bg:after{
@@ -106,15 +107,20 @@ a:hover, a:focus{
 
 .header__content{
   font-family: Roboto-Light;
-  padding-bottom: 20px;
-  color: #c9ada7ff;
+  padding-bottom: 10px;
+  color: #e6ecef;
+  border-bottom: #9ca1a3;
+  border-top-width: 0;
+  border-left-width: 0;
+  border-right-width: 0;
+  border-collapse: separate;
+  border-style: double;
 }
 
 .header__content__block{
   font-family: Roboto-Light;
   font-size: 50px;
   font-weight: bold;
-  
 }
 
 .header__content__title{
@@ -135,18 +141,19 @@ a:hover, a:focus{
 
 .header__button{
   padding: 11px 30px;
-  background-color: #c9ada7ff;
+  background-color: #273f59;
   border-radius: 30px;
   display: inline-block;
   font-size: 15px;
-  color: #4a4e69ff;
+  color: #e6ecef;
   font-family: Roboto-Light;
   font-weight: bold;
   margin-top: 30px;
 }
+
 .header__button:hover{
-  color: #fff;
-  background-color: #4a4e69ff;
+  color: #e6ecef;
+  background-color: #273f59;
 }
 
 .navbar{
@@ -154,7 +161,7 @@ a:hover, a:focus{
 }
 
 .navbar-toggle .icon-bar{
-  background-color: #fff;
+  background-color: #e6ecef;
 }
 
 .navbar-brand{
@@ -178,7 +185,7 @@ a:hover, a:focus{
 
 .page-section__title{
   font-size: 35px;
-  color: #c9ada7ff;
+  color: #e6ecef;
   text-align: center;
   font-weight: bold;
 }
@@ -192,7 +199,7 @@ a:hover, a:focus{
 
 .page-section__paragraph{
   font-size: 20px;
-  color: #c9ada7ff;
+  color: #e6ecef;
   max-width: 540px;
   text-align: center;
   margin-right: auto;
@@ -203,7 +210,7 @@ a:hover, a:focus{
 
 .page-section__paragraph__portfolio{
   font-size: 20px;
-  color: #c9ada7ff;
+  color: #e6ecef;
   max-width: 540px;
   text-align: center;
   margin-right: auto;
@@ -213,7 +220,7 @@ a:hover, a:focus{
 }
 
 .page-section__paragraph--white{
-  color: #c9ada7ff;
+  color: #e6ecef;
   line-height: 1.8;
 }
 
@@ -240,7 +247,7 @@ a:hover, a:focus{
 
 .about__bio strong{
   font-size: 15px;
-  color: #c9ada7ff;
+  color: #e6ecef;
   font-family: Roboto-Light;
 }
 
@@ -249,37 +256,39 @@ a:hover, a:focus{
   font-family: Roboto-Light;
   font-weight: bold;
   border-radius: 30px;
+  color: #273f59;
+  border-color: #e6ecef;
   font-size: 15px;
 }
 
 .button:hover{
-  color: #273f59;
-  background-color: #c9ada7ff;
+  color: #e6ecef;
+  background-color: #273f59;
+  border-style: solid;
+  border-radius: 30px;
+  border-color: #e6ecef;
 }
 
 .button--colorful{
-  background-color: #4a4e69ff;
+  background-color: #e6ecef;
   font-family: Roboto-Light;
-  color: #fff;
+  color: #273f59;
   padding: 12px 55px 12px 55px;
   display:inline-block;
   margin-bottom: 20px;
 }
 
-.button--colorful:visited,
-.button--colorful:active {
-  color: #fff;
-}
+
 
 .button--default{
   color: #455a64;
-  background-color: #c9ada7ff;
+  background-color: #e6ecef;
   
 }
 
 .button--default:hover{
-  background-color: #4a4e69ff;
-  color: #fff;
+  background-color: #273f59;
+  color: #e6ecef;
 }
 
 .button--margin{
@@ -313,12 +322,12 @@ a:hover, a:focus{
 .portfolio__single-section h4{
   font-size: 20px;
   font-weight: bold;
-  color: #fff;
+  color: #e6ecef;
 }
 
 .portfolio__single-section p{
   font-weight: 15px;
-  color: #fff;
+  color: #e6ecef;
   font-weight: bold;
 }
 
@@ -372,25 +381,27 @@ a:hover, a:focus{
   top: 30px;
   right: 30px;
   background-color: #455a64;
-  color: #fff;
+  color: #e6ecef;
   border: none;
   padding: 5px 10px;
   cursor: pointer;
-  border-radius: 0; /* Square edges */
+  border-radius: 0; 
+}
+.minimize-button:hover{
+  border-radius: 0;
 }
 
-/* Media query to adjust minimize button on smaller screens */
 @media (max-width: 768px) {
   .minimize-button {
-    top: 10px; /* Adjust position for smaller screens */
-    right: 10px; /* Adjust position for smaller screens */
-    padding: 3px 6px; /* Reduce padding for smaller screens */
-    font-size: 14px; /* Reduce font size for smaller screens */
+    top: 10px; 
+    right: 10px; 
+    padding: 3px 6px; 
+    font-size: 14px; 
   }
 }
 
 pre {
-  background-color: #c9ada7ff;
+  background-color: #e6ecef;
   white-space: pre-wrap;
   word-wrap: break-word;
 }
@@ -401,18 +412,25 @@ code {
   display: block;
 }
 .footer{
+  margin-top: 10%;
+  border-style: double;
+  border-bottom-width: 0;
+  border-right-width: 0;
+  border-left-width: 0;
+  border-color: #9ca1a3;
   font-family: Roboto-Light;
-  padding-top: 50px;
+  border-bottom: #9ca1a3;
+  border-style: inset;
   padding-bottom: 50px;
 }
 
 .footer__title{
   font-family: Roboto-Light;
   font-size: 30px;
-  color: #273f59;
+  color: #e6ecef;
   font-family: Roboto-Light;
   font-weight: bold;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 }
 
 .footer__contact-information li{
@@ -447,6 +465,6 @@ code {
 
 .footer__paragraph{
   font-size: 30px;
-  color: #fff;
+  color: #e6ecef;
   font-family: Roboto-Light;
 }
