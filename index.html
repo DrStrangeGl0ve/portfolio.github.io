@@ -16,33 +16,35 @@
 
 <body>
   <header class="header header--bg">
-      <div class="header__content text-center">
-        <h1 class="header__content__title">Logan Groce</h1>
+      <div class="header__content">
+        <div class="header__content__title">Logan Groce</h1>
+          
+      </div>
         <ul class="header__content__sub-title">
           <li>TEACHER<span class="padding"></span></li>
           <li>GAME DEVELOPER<span class="padding"></span></li>
           <li>APP DEVELOPER<span class="padding"></span></li>
           <li>PROGRAMMER<span class="padding"></span></li>
         </ul>
+        <div class="header__buttons">
+          <a class="header__button" href="https://www.linkedin.com/in/logangroce/"><img src="assets/images/li.png"></a>
+          <a class="header__button" href="mailto:logangroce91@gmail.com"><img src="assets/images/gmail.png"></a>
       </div>
-    </div>
   </header>
 
-  <div class="row text-center">
-    <a class="button button--colorful" href="https://www.linkedin.com/in/logangroce/"><img src="assets/images/li.png"></a>
-    <a class="button button--colorful" href="mailto:logangroce91@gmail.com"><img src="assets/images/gmail.png"></a>
-  </div>
+  
   <section class="about" id = "about">
-    <div class="container about__container--narrow">
-      <div class="page-section">
-          <p class="page-section__paragraph">I'm an experienced teacher and software engineer who specializes in App Development, Game Programming, and Web Design. I'm always excited to build new things with awesome people! You can contact me via email or LinkedIn. </p>
-      </div>
-            <div class="row text-center">
-              <a class="button button--colorful" href="https://github.com/DrStrangeGl0ve/portfolio.github.io/blob/main/assets/images/24_Resume.zip" target="_blank" download="GroceResume">DOWNLOAD RESUM&Eacute;</a>
-              <a class="button button--colorful" href="https://github.com/DrStrangeGl0ve">GITHUB</a>
-            </div>
-          </div>
-      </div>
+    <div class="container">
+      
+        <h2 class="about__title">ABOUT ME</h2>
+          <p class="about__description">I'm an experienced teacher and software engineer who specializes in App Development, Game Programming, and Web Design. I'm always excited to build new things with awesome people! You can contact me via email or LinkedIn. </p>
+      
+            
+              <a class="button button--colorful" href="/assets/images/24_Resume.zip" target="_blank" download="GroceResume">DOWNLOAD RESUM&Eacute;</a>
+              <a class="button button--colorful" href="https://github.com/DrStrangeGl0ve">VISIT GITHUB</a>
+            
+          
+      
     </div>
   </section>
 
@@ -50,7 +52,12 @@
     <div class="container">
       <div class="page-section">
         <h2 class="page-section__title">CODE SAMPLES</h2>
-        <p class="page-section__paragraph__portfolio">This is a small collection of programs and apps I've worked on in school and independently. If you'd like to see more of my work, please visit my <a href="https://github.com/DrStrangeGl0ve" style="text-decoration: underline; color:#c9ada7ff">Github</a> page.</p>
+        <p class="page-section__paragraph__portfolio">
+            This is a small collection of programs and apps I've worked on in school and independently. If you'd like to see more of my work, please visit my <a href="https://github.com/DrStrangeGl0ve"
+             style="text-decoration: underline; color:#c9ada7ff">Github</a> page.</p>
+      </div>
+
+      <div class="page-section">
         <!--Java Section-->
         <h3 class="page-section__title">Java</h3>
         <div class="portfolio__button-group">
@@ -58,9 +65,9 @@
           <a class="button button--default" data-filter=".category-g" href="#">Water Well</a>
           <a class="button button--default" data-filter=".category-h" href="#">Gradebook</a>
         </div>
-        <div class="collapsible-container" id="collapsible-container">
-          <button id="minimize-button" class="button button--default minimize-button">X</button>
-        </div>
+       </div>
+
+      <div class="page-section">
         <!--Python Section-->
         <h3 class="page-section__title">Python</h3>
         <div class="portfolio__button-group">
@@ -68,17 +75,17 @@
           <a class="button button--default" data-filter=".category-e" href="#">Riot Game Data</a>
           <a class="button button--default" data-filter=".category-f" href="#">Flask Deployment</a>
         </div>
-        <div class="collapsible-container" id="collapsible-container">
-          <button id="minimize-button" class="button button--default minimize-button">X</button>
-        </div>
+      </div>
+
+      <div class="page-section">
         <!--Javascript Section-->
         <h3 class="page-section__title">JavaScript</h3>
         <div class="portfolio__button-group">
           <a class="button button--default" data-filter=".category-h" id="mpg-app-button" href="#">MPG App</a>
         </div>
-        <div class="collapsible-container" id="collapsible-container">
-          <button id="minimize-button" class="button button--default minimize-button">X</button>
-        </div>
+      </div>
+      
+      <div class="page-section">
         <!--C Section-->
         <h3 class="page-section__title">C</h3>
         <div class="portfolio__button-group">
@@ -88,25 +95,25 @@
           <a class="button button--default" data-filter=".category-g" href="#">MPG</a>
           <a class="button button--default" data-filter=".category-h" href="#">Customer Bill</a>
         </div>
-          <div class="collapsible-container" id="collapsible-container">
-          <!-- Content will be populated here -->
-          <button id="minimize-button" class="button button--default minimize-button">X</button>
-        </div>
+      </div>
+      
+      <div class="page-section">
         <!--Misc Section-->
         <h3 class="page-section__title">Game Design & Web Apps</h3>
-          <div class="row text-center">
+          <div class="portfolio__button-group">
             <a class="button button--colorful" href="https://drstrangegl0ve.github.io/games.github.io-jetpack-geometry/">JETPACK GEOMETRY</a>
             <a class="button button--colorful" href="https://drstrangegl0ve.github.io/games.github.io-MobaMovement/">MOBA MOVEMENT</a>
           </div>
+      </div>
+    </div>    
   </section>
 
   <footer class="footer footer--bg" id = "footer">
     <div class="container text-center">
       <h1 class="footer__title">Contact Me</h1>
       <ul class="footer__contact-information">
-      <li> <a href="https://www.linkedin.com/in/logangroce/"><img src="assets/images/li.png" alt = ""></a> <p class="username">LinkedIn</p> </li>
-      <li> <a href="mailto:logangroce91@gmail.com"><img src="assets/images/gmail.png" alt = ""> </a> <p class="username">Email</p> </li>
-      <li> <a> <img src="assets/images/discord.png" alt = ""></a> <p class="username"> Discord : drstrangeglove </p> </li>
+        <li> <a href="https://www.linkedin.com/in/logangroce/"><img src="assets/images/li.png" alt = ""></a> </li>
+        <li> <a href="mailto:logangroce91@gmail.com"><img src="assets/images/gmail.png" alt = ""> </a> </li>
       </ul>
     </div>
   </footer>
