@@ -32,36 +32,40 @@ document.addEventListener('DOMContentLoaded', function() {
             let filePath;
             switch (button.textContent.trim()) {
                 // Java Cases
-                case 'Water Well':
+                case 'WATER WELL':
                     filePath = 'assets/code-samples/Java/Waterwell.txt';
                     break;
-                case 'Book Billing':
+                case 'BOOK BILLING':
                     filePath = 'assets/code-samples/Java/GroceBookBilling.txt';
                     break;
-                case 'Gradebook':
+                case 'GRADEBOOK':
                     filePath = 'assets/code-samples/Java/Gradebook.txt';
                     break;
                 // Python Cases
-                case 'Number Range':
+                case 'NUMBER RANGE':
                     filePath = 'assets/code-samples/Python/number_range.py';
                     break;
-                case 'Riot Game Data':
+                case 'RIOT GAME DATA':
                     filePath = 'assets/code-samples/Python/game_data.py';
                     break;
-                case 'Flask Deployment':
+                case 'FLASK DEPLOYMENT':
                     filePath = 'assets/code-samples/Python/flask.py';
                     break;
+                // JavaScript Cases
+                case 'STORE PAGE':
+                    filePath = 'assets/code-samples/JS Apps/cafe.js';
+                    break;
                 // C Cases
-                case 'Build & Search Array':
+                case 'BUILD & SEARCH ARRAY':
                     filePath = 'assets/code-samples/C Programs for Git/GeneratingAndSearchingArray.c';
                     break;
-                case 'Customer Bill':
+                case 'CUSTOMER BILL':
                     filePath = 'assets/code-samples/C Programs for Git/CustomerBill.c';
                     break;
-                case 'Payroll by Position':
+                case 'PAYROLL BY POSITION':
                     filePath = 'assets/code-samples/C Programs for Git/PayrollPositions.c';
                     break;
-                case 'Reverse & Average Array':
+                case 'REVERSE & AVERAGE ARRAY':
                     filePath = 'assets/code-samples/C Programs for Git/ReversingAndAveragingArrays.c';
                     break;
                 case 'MPG':
@@ -69,6 +73,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     break;
                 default:
                     filePath = ''; 
+                
             }
 
             if (filePath) {
@@ -80,7 +85,7 @@ document.addEventListener('DOMContentLoaded', function() {
                         collapsibleContainer.style.display = 'block';
                     })
                     .catch(error => console.error('Error fetching the file:', error));
-            } else if (button.textContent.trim() === 'MPG App') {
+            } else if (button.textContent.trim() === 'MPG APP') {
                 collapsibleContainer.id = 'mpg-app';
                 const content = collapsibleContainer.querySelector('#content');
                 content.innerHTML = `

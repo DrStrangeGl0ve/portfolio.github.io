@@ -31,15 +31,14 @@ ul{
 a:hover, a:focus{
   text-decoration: none;
 }
+
 .header--bg {
   position: relative;
-  z-index: 1;
   margin-top: 10px;
   border-bottom: #e6ecef;
   border-width: 0;
   border-style: solid;
   border-bottom-width: 5px;
-  
 }
 
 .header__content {
@@ -55,6 +54,7 @@ a:hover, a:focus{
   font-family: Roboto-Light;
   font-size: 50px;
   font-weight: bold;
+  display: inline-flex;
 }
 
 .header__content__title {
@@ -76,21 +76,28 @@ a:hover, a:focus{
 }
 
 .header__button {
-  padding-top: 5px;
-  padding-bottom: 5px;
-  margin-right: 10px;
-  width: 100px;
-  height: 100px;
-  text-align: center;
-  line-height: 90px;
+  width: 70px;
+  height: 70px;
+  padding: 0;
   background-color: #e6ecef;
   border-radius: 50%;
-  display: inline-block;
-  font-size: 10px;
-  color: #e6ecef;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.header__button:hover{
+.header__button img {
+  max-width: 100%;
+  max-height: 100%;
+}
+.header__button :hover{
+  width: 70px;
+  height: 70px;
+  padding: 0;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: #9ca1a3;
 }
 
@@ -158,7 +165,6 @@ a:hover, a:focus{
   font-weight: bold; 
 }
 
-
 .about__description{
   max-width: 540px;
   font-size: 20px;
@@ -207,8 +213,7 @@ a:hover, a:focus{
 
 .button--default{
   color: #455a64;
-  background-color: #e6ecef;
-  
+  background-color: #e6ecef; 
 }
 
 .button--default:hover{
@@ -237,7 +242,6 @@ a:hover, a:focus{
 
 .portfolio__single-section__image{
   display: block;
-  
 }
 
 .portfolio__single-section h4{
@@ -311,7 +315,6 @@ a:hover, a:focus{
   max-height: 400px;
   margin-left: auto;
   margin-right: auto;
-  
 }
 #mpg-app main{
   background-color: #e6ecef;
