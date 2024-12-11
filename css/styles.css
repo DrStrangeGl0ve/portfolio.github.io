@@ -164,7 +164,7 @@ a:hover, a:focus{
   max-width: 540px;
   font-size: 35px;
   color: #273f59;
-  font-weight: bold; 
+  font-weight: bold;
 }
 
 .about__description{
@@ -214,8 +214,8 @@ a:hover, a:focus{
 
 
 .button--default{
-  color: #455a64;
-  background-color: #e6ecef; 
+  color: #273f59;
+  background-color: #e6ecef;
 }
 
 .button--default:hover{
