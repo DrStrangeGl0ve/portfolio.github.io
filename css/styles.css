@@ -15,7 +15,6 @@ html,body {
 
 @media (min-width: 1400px) {
   .container{
-    
     font-family: Roboto-Light;
     width:auto;
     margin: 0 auto;
@@ -154,7 +153,6 @@ a:hover, a:focus{
 
 .about {
   margin-left: auto;
-
   text-align: left;
   background-color: #9ca1a3;
   color: #455a64;
